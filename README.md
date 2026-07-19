@@ -4,234 +4,690 @@
 
 **Independent builder · Open-source contributor · Systems tinkerer**
 
-把想法做成能运行、能验证、能落地的系统。
+把想法做成能运行、能验证、能落地的系统。  
+I build practical systems that can be tested, shipped, and maintained.
 
 [![GitHub followers](https://img.shields.io/github/followers/tianrking?style=flat-square&logo=github&label=Followers)](https://github.com/tianrking?tab=followers)
-[![Open PRs](https://img.shields.io/badge/Open_PRs-59-2DA44E?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Atianrking)
-[![Merged PRs](https://img.shields.io/badge/Merged_PRs-63-8250DF?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Atianrking)
-[![All PRs](https://img.shields.io/badge/All_PRs-172-0969DA?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Atianrking)
+[![EdgeMirror stars](https://img.shields.io/github/stars/tianrking/EdgeMirror?style=flat-square&logo=github&label=EdgeMirror)](https://github.com/tianrking/EdgeMirror)
+[![AnyTLS-Go-Script stars](https://img.shields.io/github/stars/tianrking/AnyTLS-Go-Script?style=flat-square&logo=github&label=AnyTLS-Go-Script)](https://github.com/tianrking/AnyTLS-Go-Script)
 
 </div>
 
 ## About me
 
-I build practical systems across **embedded hardware, robotics, networking, developer tools, web/desktop software, and applied AI**. I enjoy tracing a bug to its real boundary, writing the smallest reliable fix, and proving it with a focused regression test.
+I work across **embedded hardware, robotics, networking, developer tools, web/desktop software, applied AI, and market research systems**. I like tracing a problem to its real boundary, implementing the smallest reliable fix, and proving it with focused tests.
 
-- 🔩 Hardware and protocols: ESP32, RP2040, STM32, BLE, USB, CAN, robotics
-- 🦀 Systems and tooling: Rust, Go, Python, TypeScript, cross-platform diagnostics
-- 🌐 Product engineering: self-hosted services, desktop/web applications, automation
-- 🤝 Open source: reproducible bug reports, targeted fixes, tests, documentation
-- 🧭 Current interests: reliable agent workflows, protocol analysis, private infrastructure, market research tooling
+- 🔩 **Hardware & protocols:** ESP32, RP2040, STM32, BLE, USB, CAN, secure elements, robotics
+- 🦀 **Systems & tooling:** Rust, Go, Python, TypeScript, cross-platform diagnostics
+- 🌐 **Product engineering:** self-hosted services, desktop/web apps, automation and deployment
+- 🤝 **Open source:** reproducible bug reports, targeted fixes, regression tests and maintainable integrations
+- 🧭 **Current interests:** reliable agent workflows, protocol analysis, private infrastructure and prediction-market tooling
 
-## Projects
+## Featured original projects
 
-| Project | What it is | Stack |
+| Project | What it contains | Main stack |
 |---|---|---|
-| [SonicPair](https://github.com/tianrking/SonicPair) | Browser-native, near-ultrasonic device pairing with local cryptography | TypeScript · Web Audio · Web Crypto |
-| [Véspero](https://github.com/tianrking/Vespero) | Self-hosted, pluggable egress controller behind one stable proxy endpoint | Rust · Tokio · React |
-| [BLE Analyzer Pro RS](https://github.com/tianrking/BLE-Analyzer-Pro-rs) | Rust-native capture stack for the WCH BLE Analyzer Pro | Rust · libusb · PCAP |
-| [PolyAlpha](https://github.com/tianrking/PolyAlpha) | Cross-market Polymarket research, strategy analysis, and live tracking toolkit | Rust · Python · SQLite |
+| [EdgeMirror](https://github.com/tianrking/EdgeMirror) | Edge-side acceleration and proxy toolkit with shared request, cache, fallback and metadata paths | JavaScript · Cloudflare |
+| [AnyTLS-Go-Script](https://github.com/tianrking/AnyTLS-Go-Script) | One-command AnyTLS-Go installation and lifecycle automation | Shell · Linux |
+| [SonicPair](https://github.com/tianrking/SonicPair) | Browser-native near-ultrasonic device pairing with local cryptography and a live two-device workflow | TypeScript · Web Audio · Web Crypto |
+| [Véspero](https://github.com/tianrking/Vespero) | Self-hosted pluggable egress controller behind one stable proxy endpoint | Rust · Tokio · React |
+| [BLE Analyzer Pro RS](https://github.com/tianrking/BLE-Analyzer-Pro-rs) | Rust-native capture, discovery and PCAP workflow for the WCH BLE Analyzer Pro | Rust · libusb · PCAP |
+| [PolyAlpha](https://github.com/tianrking/PolyAlpha) | Cross-market Polymarket research, strategy analysis and live tracking toolkit | Rust · Python · SQLite |
+| [ParticlePair](https://github.com/tianrking/ParticlePair) | Device-pairing experiments and productized browser interaction flows | TypeScript |
+| [MarketBridge](https://github.com/tianrking/MarketBridge) | Market data and execution bridge experiments with explicit adapter boundaries | Rust |
+| [ESP32 Micro-ROS](https://github.com/tianrking/ESP32_MicroROS) | Embedded ROS 2 experiments and reference firmware for ESP32 | C · micro-ROS |
+| [appstore-price](https://github.com/tianrking/appstore-price) | App Store regional pricing comparison and product-facing tooling | TypeScript |
 
-## Open-source pull requests
+## Selected merged contributions · 2026
 
-As of **2026-07-19**, GitHub search shows **172 public pull requests** authored by me:
-
-| Status | Count | Live view |
-|---|---:|---|
-| Open | 59 | [View on GitHub](https://github.com/pulls?q=is%3Apr+is%3Aopen+author%3Atianrking) |
-| Merged | 63 | [View on GitHub](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Atianrking) |
-| Closed without merge | 50 | [View on GitHub](https://github.com/pulls?q=is%3Apr+is%3Aclosed+-is%3Amerged+author%3Atianrking) |
-| **Total** | **172** | [View every PR](https://github.com/pulls?q=is%3Apr+author%3Atianrking) |
-
-The archive below is a profile snapshot. The links above are the always-current source of truth.
+Only substantial, successfully merged work is highlighted here. Closed-without-merge entries, routine maintenance-only changes, and Seeed documentation work are intentionally omitted.
 
 <details>
-<summary><strong>🟢 Open (59)</strong></summary>
+<summary><strong>View merged PRs and concrete changes</strong></summary>
 
-- [go-task/task#2922](https://github.com/go-task/task/pull/2922) — fix: escape single quotes in source glob paths
-- [pylint-dev/pylint#11176](https://github.com/pylint-dev/pylint/pull/11176) — fix: avoid crash for lambda-backed bound methods
-- [sveltejs/kit#16373](https://github.com/sveltejs/kit/pull/16373) — Preserve search parameters in remote form actions
-- [withastro/astro#17400](https://github.com/withastro/astro/pull/17400) — fix(node): return 404 for unknown prerendered endpoints
-- [faker-js/faker#3954](https://github.com/faker-js/faker/pull/3954) — fix(vehicle): calculate VIN check digit
-- [anomalyco/opencode#37420](https://github.com/anomalyco/opencode/pull/37420) — fix(session): ignore hidden user turns
-- [neovim/neovim#40768](https://github.com/neovim/neovim/pull/40768) — fix(float): use current cursor for cursor-relative floats
-- [Kludex/starlette#3379](https://github.com/Kludex/starlette/pull/3379) — fix: support IPv6 addresses in TrustedHostMiddleware
-- [vitest-dev/vitest#10787](https://github.com/vitest-dev/vitest/pull/10787) — fix: support lowercase test drive on Windows (fix #10692)
-- [sharkdp/bat#3841](https://github.com/sharkdp/bat/pull/3841) — fix: keep auto colors when paging is forced
-- [sharkdp/hyperfine#909](https://github.com/sharkdp/hyperfine/pull/909) — fix: support relative forward-slash paths on Windows
-- [ipython/ipython#15316](https://github.com/ipython/ipython/pull/15316) — fix: recognize cell magics after comments 🤖🍆
-- [gitleaks/gitleaks#2193](https://github.com/gitleaks/gitleaks/pull/2193) — fix(config): detect new GitHub App installation tokens (fixes #2192)
-- [nodejs/undici#5565](https://github.com/nodejs/undici/pull/5565) — fix(types): export MockAgent pending interceptor type
-- [catchorg/Catch2#3178](https://github.com/catchorg/Catch2/pull/3178) — Fix repeated SECTIONs in one test cycle
-- [fish-shell/fish-shell#12878](https://github.com/fish-shell/fish-shell/pull/12878) — fix: exclude broadcast hosts from completions
-- [vitejs/vite#22958](https://github.com/vitejs/vite/pull/22958) — fix: stabilize CSS module names across queries (fix #22957)
-- [encode/httpcore#1094](https://github.com/encode/httpcore/pull/1094) — Reclaim orphaned pool connections after cancellation
-- [gohugoio/hugo#15123](https://github.com/gohugoio/hugo/pull/15123) — cache: Preserve case-insensitively accessed files
-- [stablyai/orca#9001](https://github.com/stablyai/orca/pull/9001) — fix(orchestration): fail direct dispatches on agent exit
-- [restic/restic#21969](https://github.com/restic/restic/pull/21969) — Ignore future-dated snapshots when selecting latest
-- [sigoden/dufs#729](https://github.com/sigoden/dufs/pull/729) — test: serialize server port selection
-- [derailed/k9s#4124](https://github.com/derailed/k9s/pull/4124) — fix(ci): restore test workflow push triggers
-- [dandavison/delta#2191](https://github.com/dandavison/delta/pull/2191) — fix: respect max line length for ripgrep JSON
-- [muesli/duf#375](https://github.com/muesli/duf/pull/375) — fix: parse escaped device mapper names
-- [charmbracelet/glow#991](https://github.com/charmbracelet/glow/pull/991) — fix: decode UTF-16 markdown with BOM
-- [cookiecutter/cookiecutter#2245](https://github.com/cookiecutter/cookiecutter/pull/2245) — Preserve cached templates when refresh fails
-- [gitui-org/gitui#3000](https://github.com/gitui-org/gitui/pull/3000) — fix: support AltGr text input on Windows
-- [socketio/socket.io#5528](https://github.com/socketio/socket.io/pull/5528) — fix(engine): support Node 10 query parsing
-- [nushell/nushell#18626](https://github.com/nushell/nushell/pull/18626) — Preserve drive-relative prefixes in `path split` (#18607)
-- [avajs/ava#3471](https://github.com/avajs/ava/pull/3471) — fix: report TAP timeouts without crashing
-- [npm/cli#9774](https://github.com/npm/cli/pull/9774) — fix(config): redact proxy environment credentials
-- [Nutlope/hallmark#29](https://github.com/Nutlope/hallmark/pull/29) — docs: fix recipe and study links
-- [starship/starship#7601](https://github.com/starship/starship/pull/7601) — fix(init): emit Unix paths for POSIX shells on Windows
-- [TencentCloud/CubeSandbox#986](https://github.com/TencentCloud/CubeSandbox/pull/986) — sdk/python: accept E2B envs alias
-- [kunchenguid/no-mistakes#498](https://github.com/kunchenguid/no-mistakes/pull/498) — fix(agent): send Claude prompts through stdin
-- [open-webui/open-webui#27114](https://github.com/open-webui/open-webui/pull/27114) — fix(rag): allow special token literals
-- [ohmyzsh/ohmyzsh#13869](https://github.com/ohmyzsh/ohmyzsh/pull/13869) — fix(core): support nounset startup
-- [actions/checkout#2522](https://github.com/actions/checkout/pull/2522) — Disable automatic Git maintenance
-- [Panniantong/Agent-Reach#512](https://github.com/Panniantong/Agent-Reach/pull/512) — fix(doctor): match mcporter server names exactly
-- [openai/codex-plugin-cc#511](https://github.com/openai/codex-plugin-cc/pull/511) — fix(status): avoid HTML breaks in action cells
-- [iOfficeAI/OfficeCLI#229](https://github.com/iOfficeAI/OfficeCLI/pull/229) — fix(xlsx): preserve non-space whitespace in TRIM
-- [anthropics/claude-cookbooks#782](https://github.com/anthropics/claude-cookbooks/pull/782) — docs(skills): fix support link
-- [google-labs-code/stitch-skills#82](https://github.com/google-labs-code/stitch-skills/pull/82) — docs: fix shadcn skill links
-- [abseil/abseil-cpp#2113](https://github.com/abseil/abseil-cpp/pull/2113) — cmake: skip probes for required C++ standard
-- [Zackriya-Solutions/meetily#639](https://github.com/Zackriya-Solutions/meetily/pull/639) — fix(recording): respect selected transcription provider
-- [wonderwhy-er/DesktopCommanderMCP#588](https://github.com/wonderwhy-er/DesktopCommanderMCP/pull/588) — fix(windows): restore shell environment variables
-- [NousResearch/hermes-agent#9031](https://github.com/NousResearch/hermes-agent/pull/9031) — feat: preserve structured tool error types for observability
-- [HKUDS/nanobot#1631](https://github.com/HKUDS/nanobot/pull/1631) — feat(channels): add MQTT channel support
-- [memovai/mimiclaw#123](https://github.com/memovai/mimiclaw/pull/123) — feat: add MQTT channel support for IoT and bot integration
-- [Polymarket/polymarket-cli#16](https://github.com/Polymarket/polymarket-cli/pull/16) — docs: add Simplified Chinese and Spanish README translations
-- [NevaMind-AI/memU#298](https://github.com/NevaMind-AI/memU/pull/298) — refactor(database): eliminate code duplication and cleanup
-- [anthropics/claude-code#21459](https://github.com/anthropics/claude-code/pull/21459) — feat(hookify): add glob_match support and case sensitivity control
-- [ViggoZ/hackernews-cn#1](https://github.com/ViggoZ/hackernews-cn/pull/1) — Update README.md
-- [tianrking/esp32_pio_blue_base#1](https://github.com/tianrking/esp32_pio_blue_base/pull/1) — BLE BRIDGE &amp; ESP NOW
-- [tianrking/qgroundcontrol#1](https://github.com/tianrking/qgroundcontrol/pull/1) — Add map
-- [tianrking/RP2040_HID#1](https://github.com/tianrking/RP2040_HID/pull/1) — Init
-- [tianrking/MicroROS_RP2040#3](https://github.com/tianrking/MicroROS_RP2040/pull/3) — Format
-- [tianrking/micro_ros_raspberrypi_pico_sdk#1](https://github.com/tianrking/micro_ros_raspberrypi_pico_sdk/pull/1) — pico w
+### Developer tools & infrastructure
+
+- [wezterm/wezterm#7942](https://github.com/wezterm/wezterm/pull/7942) — guarded shell integration against an unset `ZSH_NAME`.
+- [pnpm/pnpm#13075](https://github.com/pnpm/pnpm/pull/13075) — fixed installs when `pnpm-lock.yaml` is a symlink.
+- [filebrowser/filebrowser#6034](https://github.com/filebrowser/filebrowser/pull/6034) — ensured upload hooks also run for directories.
+- [actualbudget/actual#8490](https://github.com/actualbudget/actual/pull/8490) — refreshed running balances after transaction edits.
+- [enfein/mieru#272](https://github.com/enfein/mieru/pull/272) — hardened anti-detection behavior through entropy padding and randomized heartbeats.
+- [diegosouzapw/OmniRoute#7353](https://github.com/diegosouzapw/OmniRoute/pull/7353) — normalized hashed standalone externals in Electron builds.
+- [calesthio/OpenMontage#391](https://github.com/calesthio/OpenMontage/pull/391) — corrected delayed audio fade scheduling.
+- [multica-ai/multica#722](https://github.com/multica-ai/multica/pull/722) — fixed workspace-filter synchronization and aligned CLI documentation.
+
+### AI agents, channels & desktop apps
+
+- [RightNow-AI/openfang#665](https://github.com/RightNow-AI/openfang/pull/665) — added an MQTT publish/subscribe channel adapter.
+- [HKUDS/nanobot#219](https://github.com/HKUDS/nanobot/pull/219) — added DingTalk channel support.
+- [sipeed/picoclaw#12](https://github.com/sipeed/picoclaw/pull/12) — implemented DingTalk Stream Mode integration.
+- [lbjlaq/Antigravity-Manager#1627](https://github.com/lbjlaq/Antigravity-Manager/pull/1627) — optimized token sorting by caching quota data in memory.
+- [slopus/happy#484](https://github.com/slopus/happy/pull/484) — implemented accurate Claude model cost calculation.
+- [pollen-robotics/reachy-mini-desktop-app#133](https://github.com/pollen-robotics/reachy-mini-desktop-app/pull/133) — fixed Windows encoding and compatibility behavior.
+- [DevAgentForge/Open-Claude-Cowork#33](https://github.com/DevAgentForge/Open-Claude-Cowork/pull/33) — fixed session-title retrieval in packaged macOS builds.
+- [HKUDS/DeepTutor#631](https://github.com/HKUDS/DeepTutor/pull/631) — aligned the WeCom integration with SDK 1.0.8.
+
+</details>
+
+## Complete original-project archive
+
+The profile keeps the front page selective while preserving a complete, clickable inventory. Public repositories are linked; private repositories are described by name and primary language without pretending that they are publicly accessible.
+
+<details>
+<summary><strong>Public original repositories · 225</strong></summary>
+
+#### Python
+
+- [0607](https://github.com/tianrking/0607)
+- [AGM_MCU](https://github.com/tianrking/AGM_MCU) — AGM MCU platformio agrv2k_103 agrv2k_303 agrv2k_407 agrv2k_407
+- [Amazinghand_demo](https://github.com/tianrking/Amazinghand_demo)
+- [browser_use_demo](https://github.com/tianrking/browser_use_demo)
+- [ccb_daily_check](https://github.com/tianrking/ccb_daily_check)
+- [chatgpt_plugin](https://github.com/tianrking/chatgpt_plugin)
+- [claw_proxy](https://github.com/tianrking/claw_proxy)
+- [crawl_document](https://github.com/tianrking/crawl_document)
+- [DM_Gripper](https://github.com/tianrking/DM_Gripper)
+- [Duende-Agent](https://github.com/tianrking/Duende-Agent)
+- [gitee-migration-tool](https://github.com/tianrking/gitee-migration-tool)
+- [hexfellow_canfd](https://github.com/tianrking/hexfellow_canfd)
+- [HighTorque_Control](https://github.com/tianrking/HighTorque_Control)
+- [humble_rviz2_diy](https://github.com/tianrking/humble_rviz2_diy)
+- [Hysteria2-Go-Script](https://github.com/tianrking/Hysteria2-Go-Script)
+- [image_process](https://github.com/tianrking/image_process)
+- [ipo-search-rag](https://github.com/tianrking/ipo-search-rag)
+- [KineFlow](https://github.com/tianrking/KineFlow)
+- [LAN_Device_Discovery](https://github.com/tianrking/LAN_Device_Discovery)
+- [learn_paper](https://github.com/tianrking/learn_paper)
+- [learn_pyqt5](https://github.com/tianrking/learn_pyqt5)
+- [LightRAG_Search](https://github.com/tianrking/LightRAG_Search)
+- [livekit_test](https://github.com/tianrking/livekit_test)
+- [mqtt_demo](https://github.com/tianrking/mqtt_demo)
+- [odrive_control_diy](https://github.com/tianrking/odrive_control_diy)
+- [openclaw-voice](https://github.com/tianrking/openclaw-voice)
+- [playsound_on_pi](https://github.com/tianrking/playsound_on_pi)
+- [Point_Seg_Yolo](https://github.com/tianrking/Point_Seg_Yolo)
+- [PolyAlpha](https://github.com/tianrking/PolyAlpha)
+- [pricemon](https://github.com/tianrking/pricemon)
+- [private_cell_project](https://github.com/tianrking/private_cell_project)
+- [qaq](https://github.com/tianrking/qaq)
+- [reachy_mini](https://github.com/tianrking/reachy_mini)
+- [reachy_mini_ros2](https://github.com/tianrking/reachy_mini_ros2)
+- [reachymini_chat](https://github.com/tianrking/reachymini_chat)
+- [RealChat](https://github.com/tianrking/RealChat)
+- [realtime_model_tutorial](https://github.com/tianrking/realtime_model_tutorial)
+- [rkllm-agent](https://github.com/tianrking/rkllm-agent)
+- [ros2_rviz_visualization](https://github.com/tianrking/ros2_rviz_visualization)
+- [Scrapy_Demo](https://github.com/tianrking/Scrapy_Demo) — Scrapy_Demo
+- [t_ad_help_data-1](https://github.com/tianrking/t_ad_help_data-1) — Tencent advertising data collation
+- [text2vec_fastapi](https://github.com/tianrking/text2vec_fastapi)
+- [vlm_test](https://github.com/tianrking/vlm_test)
+- [WhaleSignal](https://github.com/tianrking/WhaleSignal)
+- [xcode-proxy](https://github.com/tianrking/xcode-proxy)
+
+#### Other
+
+- [_arcgis](https://github.com/tianrking/_arcgis)
+- [_Jlink_Config](https://github.com/tianrking/_Jlink_Config) — _Jlink_Config
+- [9787113125707](https://github.com/tianrking/9787113125707) — c/c++常用算法手册
+- [ARcorecontrol](https://github.com/tianrking/ARcorecontrol)
+- [ask_AI_howto](https://github.com/tianrking/ask_AI_howto)
+- [blog](https://github.com/tianrking/blog)
+- [CHINA_A_STOCK](https://github.com/tianrking/CHINA_A_STOCK)
+- [cooneo_board_test](https://github.com/tianrking/cooneo_board_test)
+- [DSP_design](https://github.com/tianrking/DSP_design)
+- [esp32_ieee_802.15.4_template](https://github.com/tianrking/esp32_ieee_802.15.4_template)
+- [etherscan_api_python](https://github.com/tianrking/etherscan_api_python)
+- [GAEPROXYdocker](https://github.com/tianrking/GAEPROXYdocker) — 一个简洁的gae docker file
+- [GOOGLEIP-awesome](https://github.com/tianrking/GOOGLEIP-awesome)
+- [Hola-ROS2](https://github.com/tianrking/Hola-ROS2) — Guía concisa para aprender ROS 2. 简洁的 ROS 2 学习指南。
+- [katacoda-scenarios](https://github.com/tianrking/katacoda-scenarios) — Katacoda Scenarios
+- [Lapstyle_weight](https://github.com/tianrking/Lapstyle_weight) — Lapstyle 权重文件
+- [learn_nrf_with_AI](https://github.com/tianrking/learn_nrf_with_AI)
+- [learn_pi](https://github.com/tianrking/learn_pi)
+- [learn_web3py](https://github.com/tianrking/learn_web3py)
+- [liaoxuefengjs](https://github.com/tianrking/liaoxuefengjs) — 廖雪峰javascript习题代码 备份 ：））
+- [MCPEDOCKER](https://github.com/tianrking/MCPEDOCKER) — MCPEFORDOCKER
+- [minedockerfile](https://github.com/tianrking/minedockerfile) — 把一些简单实用的小工具弄到docker里面跑
+- [my_kaggle](https://github.com/tianrking/my_kaggle)
+- [omg-cli](https://github.com/tianrking/omg-cli)
+- [pic4](https://github.com/tianrking/pic4)
+- [prompt_art](https://github.com/tianrking/prompt_art)
+- [quant2](https://github.com/tianrking/quant2)
+- [Read_Book](https://github.com/tianrking/Read_Book)
+- [record](https://github.com/tianrking/record)
+- [robo_resource](https://github.com/tianrking/robo_resource)
+- [rubbish](https://github.com/tianrking/rubbish) — rubbish
+- [skills-project-template](https://github.com/tianrking/skills-project-template)
+- [svg_template](https://github.com/tianrking/svg_template)
+- [test_repo](https://github.com/tianrking/test_repo)
+- [test_video](https://github.com/tianrking/test_video)
+- [test1](https://github.com/tianrking/test1) — test1
+- [testoo](https://github.com/tianrking/testoo)
+- [tianrking-2.github.io](https://github.com/tianrking/tianrking-2.github.io) — hugo blog
+- [touchdesign_learn](https://github.com/tianrking/touchdesign_learn)
+- [Ubuntudc](https://github.com/tianrking/Ubuntudc)
+- [unity_getstart](https://github.com/tianrking/unity_getstart)
+- [w0x7ce](https://github.com/tianrking/w0x7ce) — 咸鱼
+- [windows7e](https://github.com/tianrking/windows7e)
+- [zhuangbi](https://github.com/tianrking/zhuangbi)
+
+#### C
+
+- [802.11-raw-frame](https://github.com/tianrking/802.11-raw-frame)
+- [bouffalo_template](https://github.com/tianrking/bouffalo_template) — bl616/618 bl602/604 bl702/704/706 template
+- [dirtyfrag](https://github.com/tianrking/dirtyfrag)
+- [ESP32_MicroROS](https://github.com/tianrking/ESP32_MicroROS)
+- [esp32-se05x-idf](https://github.com/tianrking/esp32-se05x-idf)
+- [esp32p4_ok](https://github.com/tianrking/esp32p4_ok)
+- [esp32s3_idf5.2_camera](https://github.com/tianrking/esp32s3_idf5.2_camera)
+- [Hera_Earphone](https://github.com/tianrking/Hera_Earphone)
+- [learn_linux](https://github.com/tianrking/learn_linux)
+- [lekiwi_stm32](https://github.com/tianrking/lekiwi_stm32)
+- [MCPE-POCKETMINE-0.14.X](https://github.com/tianrking/MCPE-POCKETMINE-0.14.X)
+- [mcxn947-getting-started](https://github.com/tianrking/mcxn947-getting-started)
+- [MinecraftPE-SERVER](https://github.com/tianrking/MinecraftPE-SERVER) — Android MinecraftPE-SERVER
+- [nrf_robot](https://github.com/tianrking/nrf_robot)
+- [nRF52xxx_template](https://github.com/tianrking/nRF52xxx_template)
+- [nrf54lm20-se05x-ncs](https://github.com/tianrking/nrf54lm20-se05x-ncs)
+- [ros2_noob](https://github.com/tianrking/ros2_noob) — learn_ros2
+- [RP2040_FreeRTOS](https://github.com/tianrking/RP2040_FreeRTOS)
+- [RP2040_HID](https://github.com/tianrking/RP2040_HID)
+- [stm32_microros](https://github.com/tianrking/stm32_microros)
+- [stm32_ppm_detect](https://github.com/tianrking/stm32_ppm_detect)
+- [STM32F103_FREERTOS](https://github.com/tianrking/STM32F103_FREERTOS)
+- [sttm32_course_design_4led_pwm](https://github.com/tianrking/sttm32_course_design_4led_pwm)
+- [WS63_Hi3863_Template](https://github.com/tianrking/WS63_Hi3863_Template)
+- [XIAO_RP2040_micro_ros](https://github.com/tianrking/XIAO_RP2040_micro_ros)
+- [zephyr-rust-renode-starter](https://github.com/tianrking/zephyr-rust-renode-starter)
+
+#### C++
+
+- [arduino-cli-esp32](https://github.com/tianrking/arduino-cli-esp32) — Comprehensive guide for using Arduino-CLI with ESP32-C6 and other ESP32 family boards. Learn installation, setup, compilation, and uploading of sketches. Ideal for IoT, embedded systems, and microc…
+- [AudioVisualFFT](https://github.com/tianrking/AudioVisualFFT)
+- [esp_LeRobot](https://github.com/tianrking/esp_LeRobot)
+- [ESP_TOOL](https://github.com/tianrking/ESP_TOOL)
+- [ESP32_C3_Network_Example](https://github.com/tianrking/ESP32_C3_Network_Example) — Seeed Studio Xiao ESP32-c3
+- [esp32_esp_now_temple](https://github.com/tianrking/esp32_esp_now_temple)
+- [ESP32_MicroROS_Pio](https://github.com/tianrking/ESP32_MicroROS_Pio)
+- [esp32_simplefoc](https://github.com/tianrking/esp32_simplefoc)
+- [ESP32_WS282_misc](https://github.com/tianrking/ESP32_WS282_misc)
+- [esp32s3_pio_arduino_2.0.17_freertos_demo](https://github.com/tianrking/esp32s3_pio_arduino_2.0.17_freertos_demo)
+- [esp8266_advanced](https://github.com/tianrking/esp8266_advanced)
+- [flutter_control](https://github.com/tianrking/flutter_control)
+- [justforfun](https://github.com/tianrking/justforfun) — justforfun
+- [learn_QT5](https://github.com/tianrking/learn_QT5)
+- [ORB_SLAM3_CUS](https://github.com/tianrking/ORB_SLAM3_CUS)
+- [projecteuler.net](https://github.com/tianrking/projecteuler.net) — projecteuler.net answer by c++
+- [qt_pro](https://github.com/tianrking/qt_pro)
+- [qt5_ros2_template](https://github.com/tianrking/qt5_ros2_template)
+- [QT5_twitter_client](https://github.com/tianrking/QT5_twitter_client)
+- [RobStride_Control](https://github.com/tianrking/RobStride_Control) — RobStride_Control
+- [ros2_qt_temple](https://github.com/tianrking/ros2_qt_temple)
+- [SAMD21G18A_GET_START](https://github.com/tianrking/SAMD21G18A_GET_START)
+- [Seeed_Sensor_Demo](https://github.com/tianrking/Seeed_Sensor_Demo)
+- [SenseCAP_Indicator_esp32s3_rp200](https://github.com/tianrking/SenseCAP_Indicator_esp32s3_rp200)
+- [Smart_car_paddle](https://github.com/tianrking/Smart_car_paddle)
+- [Wio-Lite-W600-seeed_zero-SAM_D21-PIO](https://github.com/tianrking/Wio-Lite-W600-seeed_zero-SAM_D21-PIO)
+
+#### JavaScript
+
+- [browser-proxy](https://github.com/tianrking/browser-proxy)
+- [cf-wkrs-pages-vless](https://github.com/tianrking/cf-wkrs-pages-vless)
+- [cloudflare_worker](https://github.com/tianrking/cloudflare_worker)
+- [EdgeMirror](https://github.com/tianrking/EdgeMirror)
+- [Farito](https://github.com/tianrking/Farito)
+- [faro-meteorologico](https://github.com/tianrking/faro-meteorologico)
+- [grok-api-proxy](https://github.com/tianrking/grok-api-proxy)
+- [LEIA](https://github.com/tianrking/LEIA) — LEIA (LLM-driven Embedded Interface Architecture)
+- [meme_template](https://github.com/tianrking/meme_template)
+- [mqtt_remote_map_game](https://github.com/tianrking/mqtt_remote_map_game)
+- [PolyGap](https://github.com/tianrking/PolyGap)
+- [Re_edgetunnel](https://github.com/tianrking/Re_edgetunnel)
+- [react_naitve_gps](https://github.com/tianrking/react_naitve_gps)
+- [ros2_nodejs_control](https://github.com/tianrking/ros2_nodejs_control)
+- [singbox-config-generator](https://github.com/tianrking/singbox-config-generator)
+- [solana_Empezar](https://github.com/tianrking/solana_Empezar)
+- [Tampermonkey_script](https://github.com/tianrking/Tampermonkey_script)
+- [wechat_mini_program_template](https://github.com/tianrking/wechat_mini_program_template)
+- [wechat_telegram_ocr](https://github.com/tianrking/wechat_telegram_ocr)
+- [wechat-gateway](https://github.com/tianrking/wechat-gateway)
+
+#### Rust
+
+- [agentlink](https://github.com/tianrking/agentlink)
+- [BLE-Analyzer-Pro-rs](https://github.com/tianrking/BLE-Analyzer-Pro-rs)
+- [dig-rs](https://github.com/tianrking/dig-rs)
+- [ebusy](https://github.com/tianrking/ebusy)
+- [Espejismo](https://github.com/tianrking/Espejismo)
+- [llmbridge](https://github.com/tianrking/llmbridge)
+- [lyricwave](https://github.com/tianrking/lyricwave)
+- [MarketBridge](https://github.com/tianrking/MarketBridge)
+- [mtr-rs](https://github.com/tianrking/mtr-rs)
+- [NextBoot](https://github.com/tianrking/NextBoot)
+- [OmniLAN](https://github.com/tianrking/OmniLAN)
+- [OmniProxy](https://github.com/tianrking/OmniProxy)
+- [proxychains-rs](https://github.com/tianrking/proxychains-rs)
+- [sec-cli](https://github.com/tianrking/sec-cli)
+- [socat-rs](https://github.com/tianrking/socat-rs)
+- [sshuttle-rs](https://github.com/tianrking/sshuttle-rs)
+- [Vespero](https://github.com/tianrking/Vespero)
+
+#### TypeScript
+
+- [AI_GENERATED_CODE](https://github.com/tianrking/AI_GENERATED_CODE)
+- [ai-studio-local](https://github.com/tianrking/ai-studio-local)
+- [appstore-price](https://github.com/tianrking/appstore-price)
+- [chatgpt-vercel-dev](https://github.com/tianrking/chatgpt-vercel-dev)
+- [LeConvert](https://github.com/tianrking/LeConvert)
+- [Marcato](https://github.com/tianrking/Marcato)
+- [ParticlePair](https://github.com/tianrking/ParticlePair)
+- [pet-ai-hackathon-ole](https://github.com/tianrking/pet-ai-hackathon-ole)
+- [PolyGate](https://github.com/tianrking/PolyGate)
+- [room_simulator](https://github.com/tianrking/room_simulator)
+- [SonicPair](https://github.com/tianrking/SonicPair)
+- [tauri_app_ros_control](https://github.com/tianrking/tauri_app_ros_control)
+- [w0x7ce_skills](https://github.com/tianrking/w0x7ce_skills)
+- [wechat-file-dock](https://github.com/tianrking/wechat-file-dock)
+- [yaofan](https://github.com/tianrking/yaofan)
+
+#### HTML
+
+- [Awesome_Gemini_Projects](https://github.com/tianrking/Awesome_Gemini_Projects)
+- [dont_ban_me](https://github.com/tianrking/dont_ban_me) — spider that will never be banned
+- [dont_post_me](https://github.com/tianrking/dont_post_me) — I dont know post, plz dont send me post request
+- [gemini_universe](https://github.com/tianrking/gemini_universe)
+- [playiframe](https://github.com/tianrking/playiframe)
+- [reachy_mini_teleop](https://github.com/tianrking/reachy_mini_teleop)
+- [React_PPT](https://github.com/tianrking/React_PPT)
+
+#### Shell
+
+- [AnyTLS-Go-Script](https://github.com/tianrking/AnyTLS-Go-Script) — AnyTLS-Go 一键安装脚本
+- [bot_chat_chaos](https://github.com/tianrking/bot_chat_chaos)
+- [embedded_tools](https://github.com/tianrking/embedded_tools)
+- [ipv6_gen](https://github.com/tianrking/ipv6_gen)
+- [NaiveProxy-Manager](https://github.com/tianrking/NaiveProxy-Manager)
+
+#### Go
+
+- [ClawRemove](https://github.com/tianrking/ClawRemove)
+- [learn_golang](https://github.com/tianrking/learn_golang) — Head First Go 语言程序设计 Jay McGavren
+
+#### Jupyter Notebook
+
+- [awesome_ml_share](https://github.com/tianrking/awesome_ml_share) — awesome_ml_share
+- [chatbot_api](https://github.com/tianrking/chatbot_api)
+
+#### Makefile
+
+- [MoveIt_Rviz_Demo](https://github.com/tianrking/MoveIt_Rviz_Demo)
+- [rp2040_advanced](https://github.com/tianrking/rp2040_advanced)
+
+#### PHP
+
+- [128m-vps](https://github.com/tianrking/128m-vps)
+- [zhengshu](https://github.com/tianrking/zhengshu) — o-l.pw 证书
+
+#### Swift
+
+- [polypet](https://github.com/tianrking/polypet)
+- [WristClaw_sensor](https://github.com/tianrking/WristClaw_sensor)
+
+#### CMake
+
+- [w0x7ce_bot](https://github.com/tianrking/w0x7ce_bot)
+
+#### Dockerfile
+
+- [dockerfile](https://github.com/tianrking/dockerfile) — 常用开源软件合集
+
+#### F#
+
+- [TANGNANO9K_FPGA_TEMPLATE](https://github.com/tianrking/TANGNANO9K_FPGA_TEMPLATE)
+
+#### Java
+
+- [iiiii](https://github.com/tianrking/iiiii) — iiiii
+
+#### Kotlin
+
+- [NotaRitmo](https://github.com/tianrking/NotaRitmo)
+
+#### MATLAB
+
+- [MOOC_BACKUP](https://github.com/tianrking/MOOC_BACKUP)
+
+#### MDX
+
+- [docs](https://github.com/tianrking/docs)
+
+#### PowerShell
+
+- [Flask_Demo](https://github.com/tianrking/Flask_Demo) — Flask_Demo
+
+#### Verilog
+
+- [HDLBits_DIY](https://github.com/tianrking/HDLBits_DIY)
+
+#### xBase
+
+- [AGM_FPGA_TEMPLATE](https://github.com/tianrking/AGM_FPGA_TEMPLATE) — Quartus
 
 </details>
 
 <details>
-<summary><strong>🟣 Merged (63)</strong></summary>
+<summary><strong>Private original work · 86</strong></summary>
 
-- [diegosouzapw/OmniRoute#7353](https://github.com/diegosouzapw/OmniRoute/pull/7353) — fix(electron): normalize hashed standalone externals
-- [HKUDS/DeepTutor#631](https://github.com/HKUDS/DeepTutor/pull/631) — fix(partners): align WeCom with SDK 1.0.8
-- [calesthio/OpenMontage#391](https://github.com/calesthio/OpenMontage/pull/391) — fix(audio): schedule delayed track fades correctly
-- [filebrowser/filebrowser#6034](https://github.com/filebrowser/filebrowser/pull/6034) — fix(http): run upload hooks for directories
-- [pnpm/pnpm#13075](https://github.com/pnpm/pnpm/pull/13075) — fix(lockfile): fix installs when pnpm-lock.yaml is a symlink
-- [davila7/claude-code-templates#727](https://github.com/davila7/claude-code-templates/pull/727) — docs: fix template navigation links
-- [actualbudget/actual#8490](https://github.com/actualbudget/actual/pull/8490) — [AI] Refresh running balances after transaction edits
-- [wezterm/wezterm#7942](https://github.com/wezterm/wezterm/pull/7942) — Guard shell integration against unset ZSH_NAME
-- [HKUDS/Vibe-Trading#564](https://github.com/HKUDS/Vibe-Trading/pull/564) — fix(deps): regenerate runtime lock
-- [tianrking/Vespero#2](https://github.com/tianrking/Vespero/pull/2) — Build Véspero pluggable egress controller
-- [enfein/mieru#272](https://github.com/enfein/mieru/pull/272) — feat: harden anti-detection by fixing entropy padding and randomizing heartbeat
-- [motorbridge/motorbridge-studio#5](https://github.com/motorbridge/motorbridge-studio/pull/5) — robot-arm: allow param write when joint7 is offline
-- [Seeed-Projects/reBot-DevArm#15](https://github.com/Seeed-Projects/reBot-DevArm/pull/15) — Create DISCLAIMER.md
-- [multica-ai/multica#722](https://github.com/multica-ai/multica/pull/722) — Fix workspace filter sync and align CLI docs
-- [Seeed-Projects/reBot-DevArm#12](https://github.com/Seeed-Projects/reBot-DevArm/pull/12) — Update Python SDK status: link to motorbridge across all languages
-- [motorbridge/motorbridge-esp32#2](https://github.com/motorbridge/motorbridge-esp32/pull/2) — Improve motor mode switching, web control UX, and CAN recovery robust…
-- [motorbridge/motorbridge-esp32#1](https://github.com/motorbridge/motorbridge-esp32/pull/1) — Bug
-- [RightNow-AI/openfang#665](https://github.com/RightNow-AI/openfang/pull/665) — feat(channels): add MQTT pub/sub channel adapter
-- [pollen-robotics/reachy-mini-desktop-app#133](https://github.com/pollen-robotics/reachy-mini-desktop-app/pull/133) — fix: Windows encoding and compatibility fixes
-- [Seeed-Studio/wiki-documents#4152](https://github.com/Seeed-Studio/wiki-documents/pull/4152) — docs: Improve ReachyMini documentation structure and fix broken links
-- [sipeed/picoclaw#12](https://github.com/sipeed/picoclaw/pull/12) — feat: Add DingTalk channel support via Stream Mode
-- [HKUDS/nanobot#219](https://github.com/HKUDS/nanobot/pull/219) — feat(channels): add DingTalk channel support
-- [lbjlaq/Antigravity-Manager#1627](https://github.com/lbjlaq/Antigravity-Manager/pull/1627) — perf: optimize token sorting by caching quotas in memory (fixes criti…
-- [slopus/happy#484](https://github.com/slopus/happy/pull/484) — feat(cli): implement accurate cost calculation for Claude models
-- [DevAgentForge/Open-Claude-Cowork#33](https://github.com/DevAgentForge/Open-Claude-Cowork/pull/33) — fix: resolve "Failed to get session title" error in packaged macOS app
-- [farion1231/cc-switch#452](https://github.com/farion1231/cc-switch/pull/452) — feat: add provider-specific terminal button
-- [Seeed-Projects/AI_Robotics_Academy#1](https://github.com/Seeed-Projects/AI_Robotics_Academy/pull/1) — Add ReachyMini Tutorial course with bilingual support
-- [Seeed-Studio/wiki-documents#3867](https://github.com/Seeed-Studio/wiki-documents/pull/3867) — docs: Add ReachyMini Getting Started guide
-- [Seeed-Studio/wiki-documents#3750](https://github.com/Seeed-Studio/wiki-documents/pull/3750) — Add purchase link and product image to AmazingHand documentation
-- [Seeed-Studio/wiki-documents#3692](https://github.com/Seeed-Studio/wiki-documents/pull/3692) — Add StackForce_Giant_Bipedal_Wheeled_Robot
-- [Seeed-Studio/wiki-documents#3633](https://github.com/Seeed-Studio/wiki-documents/pull/3633) — Update Edge_Robotics &amp; Change Struct 
-- [elainedanwu/elainedanwu.github.io#2](https://github.com/elainedanwu/elainedanwu.github.io/pull/2) — Add TinaCMS
-- [Seeed-Studio/wiki-documents#3627](https://github.com/Seeed-Studio/wiki-documents/pull/3627) — HighTorque_Assistant
-- [Seeed-Studio/wiki-documents#3501](https://github.com/Seeed-Studio/wiki-documents/pull/3501) — Add RobStride &amp; HighTorque control baseline
-- [Seeed-Studio/wiki-documents#3018](https://github.com/Seeed-Studio/wiki-documents/pull/3018) — Add AmazingHand Getting Start
-- [Seeed-Studio/wiki-documents#2768](https://github.com/Seeed-Studio/wiki-documents/pull/2768) — add new tutorial of lerobot
-- [Seeed-Studio/wiki-documents#2765](https://github.com/Seeed-Studio/wiki-documents/pull/2765) — Add Control_PX4_with_reComputer_Jetson.md
-- [tianrking/React_PPT#2](https://github.com/tianrking/React_PPT/pull/2) — Fix Display
-- [tianrking/React_PPT#1](https://github.com/tianrking/React_PPT/pull/1) — Add menu components
-- [tianrking/reactnative_debug_assistant#2](https://github.com/tianrking/reactnative_debug_assistant/pull/2) — 	modified:   README.md
-- [project-chip/connectedhomeip#34664](https://github.com/project-chip/connectedhomeip/pull/34664) — Update setup_idf_chip.md
-- [Seeed-Studio/wiki-documents#491](https://github.com/Seeed-Studio/wiki-documents/pull/491) — Add: add circuitpython support for XIAO ESP32S3
-- [c1ev0ps/docusaurus_wiki#15](https://github.com/c1ev0ps/docusaurus_wiki/pull/15) — Create LICENSE
-- [c1ev0ps/docusaurus_wiki#52](https://github.com/c1ev0ps/docusaurus_wiki/pull/52) — Update Grove
-- [c1ev0ps/docusaurus_wiki#47](https://github.com/c1ev0ps/docusaurus_wiki/pull/47) — update: Grove Temperature
-- [rp-rs/rp-hal#529](https://github.com/rp-rs/rp-hal/pull/529) — Fix: example application name
-- [c1ev0ps/docusaurus_wiki#42](https://github.com/c1ev0ps/docusaurus_wiki/pull/42) — Revert "Multi files"
-- [c1ev0ps/docusaurus_wiki#37](https://github.com/c1ev0ps/docusaurus_wiki/pull/37) — Revert "{wiki搬迁}"
-- [c1ev0ps/docusaurus_wiki#18](https://github.com/c1ev0ps/docusaurus_wiki/pull/18) — Add: comment
-- [raspberrypi/picamera2#367](https://github.com/raspberrypi/picamera2/pull/367) — Update README.md
-- [tianrking/private_cell_project#2](https://github.com/tianrking/private_cell_project/pull/2) — Fix:name
-- [tianrking/private_cell_project#1](https://github.com/tianrking/private_cell_project/pull/1) — G
-- [Seeed-Studio/SenseCraft-Wio#13](https://github.com/Seeed-Studio/SenseCraft-Wio/pull/13) — Update name context  ， format
-- [Seeed-Studio/SenseCraft-Wio#12](https://github.com/Seeed-Studio/SenseCraft-Wio/pull/12) — AA
-- [tianrking/dont_post_me#8](https://github.com/tianrking/dont_post_me/pull/8) — Merge pull request #7 from tianrking/main
-- [tianrking/dont_post_me#7](https://github.com/tianrking/dont_post_me/pull/7) — Merge pull request #6 from tianrking/master
-- [tianrking/dont_post_me#6](https://github.com/tianrking/dont_post_me/pull/6) — Merge pull request #5 from tianrking/main
-- [tianrking/dont_post_me#5](https://github.com/tianrking/dont_post_me/pull/5) — a
-- [tianrking/learn_opencv#1](https://github.com/tianrking/learn_opencv/pull/1) — Switch pic
-- [wechaty/docusaurus#1485](https://github.com/wechaty/docusaurus/pull/1485) — Mid internship report of juzibot project
-- [wechaty/docusaurus#1475](https://github.com/wechaty/docusaurus/pull/1475) — First internship report of juzibot project
-- [deepdialog/xiaojuzi#5](https://github.com/deepdialog/xiaojuzi/pull/5) — asr  sts update
-- [deepdialog/xiaojuzi#2](https://github.com/deepdialog/xiaojuzi/pull/2) — textIntentDetect_test (unfinish) mocha
+Private work spans prediction-market monitoring and execution, weather-market research, embedded firmware and hardware bring-up, product prototypes, internal presentations, data collections, media tooling and deployment experiments.
+
+Notable examples include:
+
+- `polyfollow` — guarded Polymarket monitoring, profiles, logging and notifications.
+- `polyweather` — weather-market collection and research workflows.
+- `PredictBridge` — adapter-oriented prediction-market SDK and capability experiments.
+- `hera_JL7016_earphone` / `hera_android_debug` — earphone firmware and Android-side debugging.
+- `safnect_ppt_260717` / `codex-ppt` — private technical presentation projects.
+
+#### TypeScript
+
+- `amazing_card`
+- `BetterChatGPT_vercel`
+- `cesium_react_nextjs`
+- `earn_online_code`
+- `gemini_daigou_website`
+- `Gemini-Next-Web`
+- `Image-Editor`
+- `morphic`
+- `ms-ra-forwarder`
+- `nfc_card`
+- `open-operator`
+- `opencut`
+- `PDFStitcherPro`
+- `quant-buddy-usa-stocks`
+- `reactnative_debug_assistant`
+- `suno_download_website`
+- `SynthoBridge`
+- `wr_do`
+
+#### C
+
+- `DM_CONTROL`
+- `E-ink-DIY`
+- `esp_idf5.4_template`
+- `esp32_esp_idf5.3_temple`
+- `ESP32_MicroROS_PLUS`
+- `esp32_zephyer_temple`
+- `esp32s3_arduino_3.1.0_LVGL_8.3`
+- `GD32F303RCT6_DEMO`
+- `hera_JL7016_earphone`
+- `Noise_Detection_Via_WioTerminal`
+- `Smoking_Detection_Via_WioTerminal`
+- `stm32_advanced`
+- `stm32_control_module`
+
+#### Python
+
+- `esp32-ai-agent-micropython-dify`
+- `learn_opencv`
+- `MediaCrawlerPro-Python_private`
+- `nfc_card_backend`
+- `pandora_serverlesss_chatgpt`
+- `pdf2video`
+- `polyweather`
+- `qmt_quant`
+- `QT_map`
+- `Quant`
+- `ROS2_arduplot_QGC_mavlink_solution`
+- `trade`
+- `Trade_FTNN`
+
+#### JavaScript
+
+- `ChatWise`
+- `download_video`
+- `gps-monitor`
+- `hand_control`
+- `learn_nodejs`
+- `libtvcus`
+- `MediaCrawlerPro-SignSrv_private`
+- `meme`
+- `my-openai-gemini`
+- `my-openai-gemini_l`
+- `my-robot-viewer`
+- `tianrking.github.io`
+
+#### Other
+
+- `A_STOCK_HISTORY`
+- `Awesome_music`
+- `CocoPi2_design`
+- `diary`
+- `freertos_advanced`
+- `kicad_learn`
+- `mavlink_ros2_script`
+- `nuttx_esp32_dev`
+- `qemu-dev`
+- `sshkey`
+- `test`
+- `tiny_diy`
+
+#### C++
+
+- `bipedal_robot`
+- `esp32_pio_blue_base`
+- `esp32s3_camera`
+- `py_forward`
+- `robot_online`
+- `XIAO_IR_REMOTE_TEST`
+
+#### Rust
+
+- `BirdSong`
+- `polyfollow`
+- `PredictBridge`
+- `weixin-agent-rs`
+
+#### CSS
+
+- `codex-ppt`
+- `hera_card_website`
+- `safnect_ppt_260717`
+
+#### HTML
+
+- `iran-war-tracker`
+- `openclaw_config`
+
+#### CMake
+
+- `esp32_advanced`
+
+#### Kotlin
+
+- `hera_android_debug`
+
+#### Makefile
+
+- `MicroROS_RP2040`
 
 </details>
 
-<details>
-<summary><strong>⚪ Closed without merge (50)</strong></summary>
+## Organization & team projects
 
-- [ast-grep/ast-grep#2811](https://github.com/ast-grep/ast-grep/pull/2811) — Respect --no-ignore for configured rule directories
-- [scikit-learn/scikit-learn#34492](https://github.com/scikit-learn/scikit-learn/pull/34492) — FIX Raise NotFittedError for AdaBoost importances
-- [getsops/sops#2257](https://github.com/getsops/sops/pull/2257) — fix(config): normalize paths before regex matching (fixes #2237)
-- [Shubhamsaboo/awesome-llm-apps#966](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/966) — docs: fix research agent startup command
-- [vuejs/core#15100](https://github.com/vuejs/core/pull/15100) — fix(runtime-vapor): support setup state in production
-- [pre-commit/pre-commit#3721](https://github.com/pre-commit/pre-commit/pull/3721) — fix: support SHA-256 zero OIDs in pre-push
-- [pallets/werkzeug#3208](https://github.com/pallets/werkzeug/pull/3208) — AI junk
-- [pallets/click#3694](https://github.com/pallets/click/pull/3694) — AI junk
-- [nushell/nushell#18630](https://github.com/nushell/nushell/pull/18630) — Preserve pipeline input in boolean expressions (#18624)
-- [nuxt/nuxt#35609](https://github.com/nuxt/nuxt/pull/35609) — 🚨 unwelcome pr from bot 🚨
-- [syncthing/syncthing#10800](https://github.com/syncthing/syncthing/pull/10800) — fix(strelaypoolsrv): snapshot relays before saving (fixes #10799)
-- [cli/cli#13897](https://github.com/cli/cli/pull/13897) — fix(extension): honor pin when force installing
-- [clap-rs/clap#6446](https://github.com/clap-rs/clap/pull/6446) — fix: complete fish positional values
-- [prettier/prettier#19649](https://github.com/prettier/prettier/pull/19649) — fix: preserve ASI protection for breaking ternaries
-- [poliorcetics/tree-sitter-just#5](https://github.com/poliorcetics/tree-sitter-just/pull/5) — grammar: support chained else-if expressions
-- [anomalyco/opencode#37234](https://github.com/anomalyco/opencode/pull/37234) — fix(session): ignore hidden user turns
-- [open-webui/open-webui#27113](https://github.com/open-webui/open-webui/pull/27113) — fix(rag): allow special token literals
-- [open-webui/open-webui#27112](https://github.com/open-webui/open-webui/pull/27112) — fix(rag): allow special token literals
-- [moeru-ai/airi#2063](https://github.com/moeru-ai/airi/pull/2063) — fix(stage-pages): default Alibaba TTS to CosyVoice v2
-- [davila7/claude-code-templates#726](https://github.com/davila7/claude-code-templates/pull/726) — docs: clarify embedded timekeeping boundaries
-- [NousResearch/hermes-agent#9030](https://github.com/NousResearch/hermes-agent/pull/9030) — feat: improve ToolRegistry type safety and repr
-- [google-gemini/gemini-cli#17844](https://github.com/google-gemini/gemini-cli/pull/17844) — fix(write-file): prevent file overwrite with fragments (#17776) 
-- [google-gemini/gemini-cli#17780](https://github.com/google-gemini/gemini-cli/pull/17780) — fix(write-file): prevent file overwrite with fragments (#17776)
-- [tinygo-org/tinygo-site#420](https://github.com/tinygo-org/tinygo-site/pull/420) —  Add documentation for Seeed XIAO ESP32C3 Create xiao-esp32c3.md
-- [NousResearch/hermes-agent#9034](https://github.com/NousResearch/hermes-agent/pull/9034) — refactor: extract shared helpers to reduce code duplication in base.py
-- [pollen-robotics/reachy-mini-desktop-app#186](https://github.com/pollen-robotics/reachy-mini-desktop-app/pull/186) — Fix Linux bundled daemon startup
-- [HKUDS/CLI-Anything#32](https://github.com/HKUDS/CLI-Anything/pull/32) — Fix reviewed harness issues without changing CLI structure
-- [zeroclaw-labs/zeroclaw#2940](https://github.com/zeroclaw-labs/zeroclaw/pull/2940) — feat(channels): add MQTT channel implementation
-- [HKUDS/ClawTeam#17](https://github.com/HKUDS/ClawTeam/pull/17) — feat: add task priority support and refactor spawn utilities
-- [RightNow-AI/openfang#382](https://github.com/RightNow-AI/openfang/pull/382) — feat(channels): add MQTT pub/sub channel adapter
-- [openclaw/openclaw#3364](https://github.com/openclaw/openclaw/pull/3364) — refactor(memory): extract vector management to dedicated module
-- [Seeed-Studio/wiki-documents#4108](https://github.com/Seeed-Studio/wiki-documents/pull/4108) — Add README and fix author name
-- [HKUDS/nanobot#37](https://github.com/HKUDS/nanobot/pull/37) — feat: enhance agent robustness and concurrency
-- [lbjlaq/Antigravity-Manager#1054](https://github.com/lbjlaq/Antigravity-Manager/pull/1054) — fix(cli-sync): resolve auth token conflict and cleanup model config
-- [Seeed-Studio/wiki-documents#1621](https://github.com/Seeed-Studio/wiki-documents/pull/1621) — Create HOW_TO_streamlined.md
-- [espressif/esp-adf#1225](https://github.com/espressif/esp-adf/pull/1225) — Update README_CN.md (AUD-5507)
-- [tianrking/stm32_microros#2](https://github.com/tianrking/stm32_microros/pull/2) — Just Compare
-- [mavlink/qgroundcontrol#11253](https://github.com/mavlink/qgroundcontrol/pull/11253) — Add map
-- [esphome/esphome-flasher#199](https://github.com/esphome/esphome-flasher/pull/199) — Update README.md fix install package error
-- [rp-rs/rp-hal#527](https://github.com/rp-rs/rp-hal/pull/527) — example name type wrong
-- [c1ev0ps/docusaurus_wiki#3](https://github.com/c1ev0ps/docusaurus_wiki/pull/3) — A
-- [tianrking/private_cell_project#7](https://github.com/tianrking/private_cell_project/pull/7) — WarningL compare
-- [respeaker/seeed-voicecard#330](https://github.com/respeaker/seeed-voicecard/pull/330) — aa
-- [tianrking/ros2_noob#1](https://github.com/tianrking/ros2_noob/pull/1) — cpp bug
-- [Seeed-Studio/SenseCraft-Wio#1](https://github.com/Seeed-Studio/SenseCraft-Wio/pull/1) — Crash after doubles type added
-- [Seeed-Studio/SenseCraft-Wio#11](https://github.com/Seeed-Studio/SenseCraft-Wio/pull/11) — change_name
-- [wechaty/docusaurus#1459](https://github.com/wechaty/docusaurus/pull/1459) — 13-18 JuziBot项目开发-期初报告-智能信息助理
-- [deepdialog/xiaojuzi#3](https://github.com/deepdialog/xiaojuzi/pull/3) — Mocha v2
-- [deepdialog/xiaojuzi#4](https://github.com/deepdialog/xiaojuzi/pull/4) — Mocha v2.1 新年快乐 
-- [wechaty/docusaurus#1458](https://github.com/wechaty/docusaurus/pull/1458) — Begin term juzibot read of blog branch
+These are repositories in organization spaces I maintain or actively contribute to. The archive is folded by default so the profile stays readable.
+
+<details>
+<summary><strong>View 149 organization repositories across 7 spaces</strong></summary>
+
+### [c1c10s](https://github.com/c1c10s) · 22 repositories
+
+- [arttoolkit.github.io](https://github.com/c1c10s/arttoolkit.github.io)
+- [btstack_test](https://github.com/c1c10s/btstack_test)
+- [CVE-2024-6387](https://github.com/c1c10s/CVE-2024-6387)
+- [DDoS-Ripper](https://github.com/c1c10s/DDoS-Ripper)
+- [esp32_esp8266_attacks](https://github.com/c1c10s/esp32_esp8266_attacks)
+- [ESP32-wifi-hacking](https://github.com/c1c10s/ESP32-wifi-hacking)
+- [esp32-wifi-penetration-tool](https://github.com/c1c10s/esp32-wifi-penetration-tool)
+- [esp8266_beaconSpam](https://github.com/c1c10s/esp8266_beaconSpam)
+- [esp8266_deauther](https://github.com/c1c10s/esp8266_deauther)
+- [FISSURE](https://github.com/c1c10s/FISSURE)
+- [GatherInfo](https://github.com/c1c10s/GatherInfo)
+- [GoldenEye](https://github.com/c1c10s/GoldenEye)
+- [h4cker](https://github.com/c1c10s/h4cker)
+- [Impulse](https://github.com/c1c10s/Impulse)
+- [labelme](https://github.com/c1c10s/labelme)
+- [MHDDoS](https://github.com/c1c10s/MHDDoS)
+- [NoRussian](https://github.com/c1c10s/NoRussian)
+- [python-proxy](https://github.com/c1c10s/python-proxy)
+- [stop-russia-it](https://github.com/c1c10s/stop-russia-it)
+- [stoppropaganda](https://github.com/c1c10s/stoppropaganda)
+- [uashield](https://github.com/c1c10s/uashield)
+- [Ukraine-Cyber-Operations](https://github.com/c1c10s/Ukraine-Cyber-Operations)
+
+### [c1ev0ps](https://github.com/c1ev0ps) · 58 repositories
+
+- [act](https://github.com/c1ev0ps/act)
+- [AI-For-Beginners](https://github.com/c1ev0ps/AI-For-Beginners)
+- [android](https://github.com/c1ev0ps/android)
+- [android-security-awesome](https://github.com/c1ev0ps/android-security-awesome)
+- [android-ssl-pinning-demo](https://github.com/c1ev0ps/android-ssl-pinning-demo)
+- [AndroidSecurityStudy](https://github.com/c1ev0ps/AndroidSecurityStudy)
+- [apk-mitm](https://github.com/c1ev0ps/apk-mitm)
+- [assppweb](https://github.com/c1ev0ps/assppweb)
+- [awesome-online-ide](https://github.com/c1ev0ps/awesome-online-ide)
+- [bluing](https://github.com/c1ev0ps/bluing)
+- [cf-auto-passwall](https://github.com/c1ev0ps/cf-auto-passwall)
+- [ClickHouse](https://github.com/c1ev0ps/ClickHouse)
+- [CloudflareSpeedTest](https://github.com/c1ev0ps/CloudflareSpeedTest)
+- [CS-EmbeddedLinux-Book](https://github.com/c1ev0ps/CS-EmbeddedLinux-Book)
+- [dawarich](https://github.com/c1ev0ps/dawarich)
+- [devops-exercises](https://github.com/c1ev0ps/devops-exercises)
+- [docusaurus_wiki](https://github.com/c1ev0ps/docusaurus_wiki)
+- [docusaurus-openapi-docs](https://github.com/c1ev0ps/docusaurus-openapi-docs)
+- [docusaurus-plugin-image-zoom](https://github.com/c1ev0ps/docusaurus-plugin-image-zoom)
+- [Embedded-Assembler](https://github.com/c1ev0ps/Embedded-Assembler)
+- [Embedded-Hacking](https://github.com/c1ev0ps/Embedded-Hacking)
+- [embedded-notes](https://github.com/c1ev0ps/embedded-notes)
+- [ferret](https://github.com/c1ev0ps/ferret)
+- [FridaScripts](https://github.com/c1ev0ps/FridaScripts)
+- [Hacking-RISC-V](https://github.com/c1ev0ps/Hacking-RISC-V)
+- [Hacking-Windows](https://github.com/c1ev0ps/Hacking-Windows)
+- [heroku-buildpack-chromedriver](https://github.com/c1ev0ps/heroku-buildpack-chromedriver)
+- [heroku-buildpack-google-chrome](https://github.com/c1ev0ps/heroku-buildpack-google-chrome)
+- [hooker](https://github.com/c1ev0ps/hooker)
+- [instagram-scraper](https://github.com/c1ev0ps/instagram-scraper)
+- [instagrapi](https://github.com/c1ev0ps/instagrapi)
+- [interview](https://github.com/c1ev0ps/interview)
+- [ItChat](https://github.com/c1ev0ps/ItChat)
+- [lamda](https://github.com/c1ev0ps/lamda)
+- [lazydocker](https://github.com/c1ev0ps/lazydocker)
+- [Mobile-Security-Framework-MobSF](https://github.com/c1ev0ps/Mobile-Security-Framework-MobSF)
+- [MoveCertificate](https://github.com/c1ev0ps/MoveCertificate)
+- [music-website](https://github.com/c1ev0ps/music-website)
+- [nav](https://github.com/c1ev0ps/nav)
+- [nfcgate](https://github.com/c1ev0ps/nfcgate)
+- [nginx-tutorial](https://github.com/c1ev0ps/nginx-tutorial)
+- [Osintgram](https://github.com/c1ev0ps/Osintgram)
+- [pipecat_cc](https://github.com/c1ev0ps/pipecat_cc)
+- [pivpn](https://github.com/c1ev0ps/pivpn)
+- [polygate](https://github.com/c1ev0ps/polygate)
+- [portainer](https://github.com/c1ev0ps/portainer)
+- [r0capture](https://github.com/c1ev0ps/r0capture)
+- [r2-explorer-template](https://github.com/c1ev0ps/r2-explorer-template)
+- [r8168](https://github.com/c1ev0ps/r8168)
+- [raspap-webgui](https://github.com/c1ev0ps/raspap-webgui)
+- [Reverse-Engineering](https://github.com/c1ev0ps/Reverse-Engineering)
+- [reverse-interview-zh](https://github.com/c1ev0ps/reverse-interview-zh)
+- [RSSHub](https://github.com/c1ev0ps/RSSHub)
+- [Surge](https://github.com/c1ev0ps/Surge)
+- [teledrive](https://github.com/c1ev0ps/teledrive)
+- [Termux-SSH](https://github.com/c1ev0ps/Termux-SSH)
+- [the-book-of-secret-knowledge](https://github.com/c1ev0ps/the-book-of-secret-knowledge)
+- [v2ray](https://github.com/c1ev0ps/v2ray)
+
+### [Donnees](https://github.com/Donnees) · 1 repositories
+
+- [dataset](https://github.com/Donnees/dataset)
+
+### [EmbeMundo](https://github.com/EmbeMundo) · 12 repositories
+
+- [bazel](https://github.com/EmbeMundo/bazel)
+- [devicescript](https://github.com/EmbeMundo/devicescript)
+- [ESP32-A2DP](https://github.com/EmbeMundo/ESP32-A2DP)
+- [firmware](https://github.com/EmbeMundo/firmware)
+- [mavros](https://github.com/EmbeMundo/mavros)
+- [pico-rv32ima](https://github.com/EmbeMundo/pico-rv32ima)
+- [Pico3D](https://github.com/EmbeMundo/Pico3D)
+- [px4_msgs](https://github.com/EmbeMundo/px4_msgs)
+- [rp-hal](https://github.com/EmbeMundo/rp-hal)
+- [SoftRF](https://github.com/EmbeMundo/SoftRF)
+- [ula_rp2040_pulseview](https://github.com/EmbeMundo/ula_rp2040_pulseview)
+- [zeroth-bot](https://github.com/EmbeMundo/zeroth-bot)
+
+### [happyforhappy](https://github.com/happyforhappy) · 13 repositories
+
+- [FisheyePlayer-for-VS2019](https://github.com/happyforhappy/FisheyePlayer-for-VS2019)
+- [goproxy](https://github.com/happyforhappy/goproxy)
+- [hosts](https://github.com/happyforhappy/hosts)
+- [lantern-binaries](https://github.com/happyforhappy/lantern-binaries)
+- [learn-hacking](https://github.com/happyforhappy/learn-hacking)
+- [proxypool](https://github.com/happyforhappy/proxypool)
+- [shadowsocks](https://github.com/happyforhappy/shadowsocks)
+- [shadowsocks-1](https://github.com/happyforhappy/shadowsocks-1)
+- [shadowsocks-2](https://github.com/happyforhappy/shadowsocks-2)
+- [shadowsocks-android](https://github.com/happyforhappy/shadowsocks-android)
+- [shadowsocks-go](https://github.com/happyforhappy/shadowsocks-go)
+- [shadowsocks-wiki](https://github.com/happyforhappy/shadowsocks-wiki)
+- [WebIDE](https://github.com/happyforhappy/WebIDE)
+
+### [motorbridge](https://github.com/motorbridge) · 12 repositories
+
+- [.github](https://github.com/motorbridge/.github)
+- [motorbridge](https://github.com/motorbridge/motorbridge)
+- [motorbridge-agent](https://github.com/motorbridge/motorbridge-agent)
+- [motorbridge-arm](https://github.com/motorbridge/motorbridge-arm)
+- [motorbridge-docs](https://github.com/motorbridge/motorbridge-docs)
+- [motorbridge-esp32](https://github.com/motorbridge/motorbridge-esp32)
+- [motorbridge-humanoid](https://github.com/motorbridge/motorbridge-humanoid)
+- [motorbridge-ros2](https://github.com/motorbridge/motorbridge-ros2)
+- [motorbridge-smart-servo](https://github.com/motorbridge/motorbridge-smart-servo)
+- [motorbridge-studio](https://github.com/motorbridge/motorbridge-studio)
+- [motorbridge.github.io](https://github.com/motorbridge/motorbridge.github.io)
+- [pinocchio-wasm](https://github.com/motorbridge/pinocchio-wasm)
+
+### [COONEO](https://github.com/COONEO) · 31 repositories
+
+- [Arduino_FreeRTOS_Library](https://github.com/COONEO/Arduino_FreeRTOS_Library)
+- [Arduino_Jetson_nano_ROS_Car](https://github.com/COONEO/Arduino_Jetson_nano_ROS_Car)
+- [Arduino_Raspberry_ROS_Car](https://github.com/COONEO/Arduino_Raspberry_ROS_Car)
+- [aws-robomaker-racetrack-world](https://github.com/COONEO/aws-robomaker-racetrack-world)
+- [cooneo_delta](https://github.com/COONEO/cooneo_delta)
+- [cooneo.github.io](https://github.com/COONEO/cooneo.github.io)
+- [delta_model_fashionstar](https://github.com/COONEO/delta_model_fashionstar)
+- [esp32_esp_idf5.3_temple](https://github.com/COONEO/esp32_esp_idf5.3_temple)
+- [esp32_microros](https://github.com/COONEO/esp32_microros)
+- [esp32_simplefoc](https://github.com/COONEO/esp32_simplefoc)
+- [esp32s3_camera](https://github.com/COONEO/esp32s3_camera)
+- [esp32s3_microros_web_motorcotrol](https://github.com/COONEO/esp32s3_microros_web_motorcotrol)
+- [esp32s3_yuntai_camera](https://github.com/COONEO/esp32s3_yuntai_camera)
+- [esp8266_middleware](https://github.com/COONEO/esp8266_middleware)
+- [geonav_transform](https://github.com/COONEO/geonav_transform)
+- [lidar_imu_calib](https://github.com/COONEO/lidar_imu_calib)
+- [neor_farm](https://github.com/COONEO/neor_farm)
+- [neor_mini](https://github.com/COONEO/neor_mini)
+- [neor_mini_SITL_gazebo](https://github.com/COONEO/neor_mini_SITL_gazebo)
+- [NEOR-nano](https://github.com/COONEO/NEOR-nano)
+- [Openclaw_To_ROS2](https://github.com/COONEO/Openclaw_To_ROS2)
+- [QGC_Customization](https://github.com/COONEO/QGC_Customization)
+- [ROBOTMAKER_Tutorials](https://github.com/COONEO/ROBOTMAKER_Tutorials)
+- [ROS2_arduplot_QGC_mavlink_solution](https://github.com/COONEO/ROS2_arduplot_QGC_mavlink_solution)
+- [ros2_nodejs](https://github.com/COONEO/ros2_nodejs)
+- [rp2040_microros_motorcotrol](https://github.com/COONEO/rp2040_microros_motorcotrol)
+- [sim_car](https://github.com/COONEO/sim_car)
+- [simpleFOC_suite](https://github.com/COONEO/simpleFOC_suite)
+- [stm32_advanced](https://github.com/COONEO/stm32_advanced)
+- [stm32_control_module](https://github.com/COONEO/stm32_control_module)
+- [stm32f407vet6_microros_motorcotrol](https://github.com/COONEO/stm32f407vet6_microros_motorcotrol)
 
 </details>
 
@@ -239,6 +695,6 @@ The archive below is a profile snapshot. The links above are the always-current 
 
 <div align="center">
 
-**Build it. Test it. Leave the codebase better than you found it.**
+**Build it. Verify it. Keep the boundary honest.**
 
 </div>
