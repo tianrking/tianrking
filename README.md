@@ -155,7 +155,7 @@ flowchart LR
 
 ## Open-source impact · merged PRs (2026)
 
-Contributions merged into widely used third-party projects, ordered by current community reach. This list covers repositories with roughly **2k+ stars** at the latest refresh; star badges update live, and every linked PR is verified as merged upstream in 2026.
+Contributions merged into third-party projects, selected for either **community reach or technical substance**. Entries are ordered by current community reach; star badges update live, and every linked PR is verified as merged upstream in 2026.
 
 | Upstream project | Community | My merged contribution |
 |---|---|---|
@@ -177,6 +177,7 @@ Contributions merged into widely used third-party projects, ordered by current c
 | [**RightNow-AI/openfang**](https://github.com/RightNow-AI/openfang) | [![Stars](https://img.shields.io/github/stars/RightNow-AI/openfang?style=flat-square&logo=github&label=stars)](https://github.com/RightNow-AI/openfang/stargazers) | [![PR #665](https://img.shields.io/badge/PR%20%23665-merged-8250DF?style=flat-square&logo=github)](https://github.com/RightNow-AI/openfang/pull/665) Added an MQTT publish/subscribe channel adapter. |
 | [**DevAgentForge/Open-Claude-Cowork**](https://github.com/DevAgentForge/Open-Claude-Cowork) | [![Stars](https://img.shields.io/github/stars/DevAgentForge/Open-Claude-Cowork?style=flat-square&logo=github&label=stars)](https://github.com/DevAgentForge/Open-Claude-Cowork/stargazers) | [![PR #33](https://img.shields.io/badge/PR%20%2333-merged-8250DF?style=flat-square&logo=github)](https://github.com/DevAgentForge/Open-Claude-Cowork/pull/33) Fixed packaged macOS session creation by deferring Electron-dependent initialization. |
 | [**enfein/mieru**](https://github.com/enfein/mieru) | [![Stars](https://img.shields.io/github/stars/enfein/mieru?style=flat-square&logo=github&label=stars)](https://github.com/enfein/mieru/stargazers) | [![PR #272](https://img.shields.io/badge/PR%20%23272-merged-8250DF?style=flat-square&logo=github)](https://github.com/enfein/mieru/pull/272) Hardened traffic anti-detection with entropy padding and randomized heartbeats. |
+| [**pollen-robotics/reachy-mini-desktop-app**](https://github.com/pollen-robotics/reachy-mini-desktop-app) | [![Stars](https://img.shields.io/github/stars/pollen-robotics/reachy-mini-desktop-app?style=flat-square&logo=github&label=stars)](https://github.com/pollen-robotics/reachy-mini-desktop-app/stargazers) | [![PR #133](https://img.shields.io/badge/PR%20%23133-merged-8250DF?style=flat-square&logo=github)](https://github.com/pollen-robotics/reachy-mini-desktop-app/pull/133) Fixed Windows Unicode startup failures and version compatibility in the packaged Reachy Mini desktop app. |
 
 ## Project directions
 
