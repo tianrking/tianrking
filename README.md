@@ -41,7 +41,7 @@ I build across the entire stack — from **silicon, firmware and physical protoc
 </tr>
 <tr>
 <td valign="top"><strong>⚙️ Firmware & embedded</strong></td>
-<td><strong>ESP-IDF · Zephyr / nRF Connect SDK · FreeRTOS · NuttX · Arduino · PlatformIO</strong> · micro-ROS / ROS 2 · LVGL · Renode · QEMU · KiCad · board bring-up, boot flows, drivers, diagnostics and hardware-in-the-loop testing</td>
+<td><strong>ESP-IDF · Zephyr / nRF Connect SDK · FreeRTOS · NuttX · Arduino · PlatformIO</strong> · micro-ROS / ROS 2 · UEFI · LVGL · Renode · QEMU · KiCad · board bring-up, boot flows, virtual block devices, drivers, diagnostics and hardware-in-the-loop testing</td>
 </tr>
 <tr>
 <td valign="top"><strong>📡 Protocols & buses</strong></td>
@@ -57,11 +57,11 @@ I build across the entire stack — from **silicon, firmware and physical protoc
 </tr>
 <tr>
 <td valign="top"><strong>🌐 Apps & infrastructure</strong></td>
-<td><strong>React · Next.js · Vite · Qt · Android · SwiftUI · Electron</strong> · Cloudflare Workers · Vercel · Docker · Linux / Windows / macOS · self-hosted services, edge caching, proxy and egress systems, streaming APIs, automation and deployment</td>
+<td><strong>React · Next.js · Vite · Qt · Android · SwiftUI · Electron</strong> · Canvas / Web Crypto · Markdown and technical publishing · Cloudflare Workers · Vercel · Docker · Linux / Windows / macOS · self-hosted services, edge caching, proxy and egress systems, streaming APIs, automation and deployment</td>
 </tr>
 <tr>
 <td valign="top"><strong>🧠 AI, data & open source</strong></td>
-<td><strong>LLM agents · MCP · applied AI integrations</strong> · prediction-market and quantitative tooling · monitoring and guarded execution · reproducible bug reports, targeted fixes, regression tests and maintainable upstream contributions</td>
+<td><strong>LLM agents · MCP · on-device ASR / ONNX · applied AI integrations</strong> · SEC / XBRL and market-data systems · prediction-market and quantitative tooling · monitoring and guarded execution · reproducible bug reports, targeted fixes, regression tests and maintainable upstream contributions</td>
 </tr>
 </table>
 
@@ -174,7 +174,7 @@ Only substantial original systems are included here: projects with a clear archi
 </details>
 
 <details>
-<summary><strong>🌐 Networking, routing & private infrastructure</strong> · 5 projects · process injection, edge delivery, tunneling and egress control</summary>
+<summary><strong>🌐 Rust networking, routing & private infrastructure</strong> · 10 projects · process injection, MITM, encrypted tunnels, transparent routing and protocol tooling</summary>
 
 <br>
 
@@ -185,11 +185,41 @@ Only substantial original systems are included here: projects with a clear archi
 | [**EdgeMirror**](https://github.com/tianrking/EdgeMirror) | Edge mirror gateway for PyPI, PyTorch, Hugging Face, GitHub, Docker and language ecosystems, with shared caching, upstream fallback and Cloudflare/Vercel deployment. |
 | [**Re_edgetunnel**](https://github.com/tianrking/Re_edgetunnel) | Modular Cloudflare Workers tunnel using ESM, Wrangler and KV-backed configuration, with VLESS/Trojan and multi-client subscription generation. |
 | [**AnyTLS-Go-Script**](https://github.com/tianrking/AnyTLS-Go-Script) | Architecture-aware AnyTLS-Go lifecycle manager with dependency provisioning, systemd control, guided configuration, diagnostics, QR profiles and clean removal. |
+| [**Espejismo**](https://github.com/tianrking/Espejismo) | Native encrypted tunnel with SOCKS5/HTTP/TUN ingress, X25519 + HKDF session setup, XChaCha20-Poly1305 frames, replay protection, yamux lanes, WebSocket/HTTP2 underlays and cross-platform route takeover. |
+| [**OmniProxy**](https://github.com/tianrking/OmniProxy) | Rust MITM debugging core with dynamic certificate issuance, HTTP CONNECT and WebSocket inspection, a request/response rule DSL, Wasmtime plugins, replay/query tooling and a TUI event surface. |
+| [**sshuttle-rs**](https://github.com/tianrking/sshuttle-rs) | Cross-platform transparent-proxy orchestrator using iptables/nftables on Linux and a native WinDivert dataplane on Windows, with DNS/UDP capture, per-process policy, doctor and rollback workflows. |
+| [**socat-rs**](https://github.com/tianrking/socat-rs) | Tokio endpoint bridge preserving classic socat grammar while adding normalized URI plans, TCP/UDP/TLS/SOCKS/HTTP/Unix/named-pipe endpoints, stable agent JSON, run reports and Prometheus metrics. |
+| [**dig-rs**](https://github.com/tianrking/dig-rs) | Cross-platform DNS inspection CLI with classic query compatibility plus resolver health, consistency/latency comparison, delegation tracing, batch execution and versioned JSON output. |
 
 </details>
 
 <details>
-<summary><strong>📈 Prediction markets & research infrastructure</strong> · 3 projects · collection, wallet intelligence, execution gateways and contract semantics</summary>
+<summary><strong>🧬 Visual protocols, technical publishing & local intelligence</strong> · 3 projects · optical coding, rich Markdown and on-device speech</summary>
+
+<br>
+
+| Project | Engineering core |
+|---|---|
+| [**ParticlePair**](https://github.com/tianrking/ParticlePair) | Browser-native optical pairing protocol hiding a 128-bit one-time secret inside a 1,050-particle galaxy: Hamming(12,8), CRC-16, an 18×18 differential frame and camera recovery across crop, rotation and mirroring. |
+| [**Marcato**](https://github.com/tianrking/Marcato) | Browser-first Markdown engineering studio with worker-backed rendering, sanitized HTML, math, Mermaid/Graphviz/Vega-Lite/WaveDrom/maps/3D, platform compatibility profiles, GitHub import, compressed sharing and verified PDF/PNG export. |
+| [**NotaRitmo**](https://github.com/tianrking/NotaRitmo) | Local-first Android voice pipeline combining streaming Zipformer ASR, SenseVoice refinement, Silero VAD, speaker diarization and embeddings, offline punctuation, MediaCodec imports and optional text-only LLM summaries. |
+
+</details>
+
+<details>
+<summary><strong>🧱 Low-level systems & agent-ready data tools</strong> · 2 projects · UEFI virtualization, filing parsers and machine interfaces</summary>
+
+<br>
+
+| Project | Engineering core |
+|---|---|
+| [**NextBoot**](https://github.com/tianrking/NextBoot) | Rust UEFI boot medium for x64, IA32 and AArch64 with virtual block I/O, ISO/WIM/VHD/VHDX/VDI paths, multi-filesystem discovery, WIMBOOT/LZX support and QEMU matrices spanning removable and NVMe-style media. |
+| [**sec-cli**](https://github.com/tianrking/sec-cli) | Rust SEC EDGAR disclosure engine covering submissions, EFTS, CompanyFacts, Inline XBRL/linkbases, Form 4/8-K/13D/13F/fund filings, source-backed exports, caching and shared CLI/HTTP/MCP interfaces. |
+
+</details>
+
+<details>
+<summary><strong>📈 Prediction markets & research infrastructure</strong> · 4 projects · normalized data, wallet intelligence, execution gateways and contract semantics</summary>
 
 <br>
 
@@ -198,6 +228,7 @@ Only substantial original systems are included here: projects with a clear archi
 | [**PolyAlpha**](https://github.com/tianrking/PolyAlpha) | Rust + Python dual-engine research platform for Polymarket data collection, on-chain/CLOB ingestion, wallet scoring, strategy reverse engineering, factor validation and live signals. |
 | [**PolyGate**](https://github.com/tianrking/PolyGate) | Shared Node.js/Cloudflare Workers command gateway with wallet/signature logic, public and authenticated CLOB commands, on-chain approval/CTF operations, SSE events and policy controls. |
 | [**PolyGap**](https://github.com/tianrking/PolyGap) | Prediction-contract audit system combining fast rule-based gap detection with streaming LLM analysis to expose settlement ambiguity and adversarial edge cases. |
+| [**MarketBridge**](https://github.com/tianrking/MarketBridge) | Rust/Tokio market-data plane normalizing CEX, options, DeFi, macro, on-chain and Polymarket sources into freshness-aware REST/WebSocket/Redis interfaces with derived order flow, klines, spreads and source health. |
 
 </details>
 
