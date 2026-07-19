@@ -132,7 +132,7 @@ flowchart LR
 
 ## Selected merged contributions · 2026
 
-Only substantial, successfully merged work is highlighted here. Closed-without-merge entries, routine maintenance-only changes, and Seeed documentation work are intentionally omitted.
+Only substantial, successfully merged engineering work is highlighted here.
 
 <details>
 <summary><strong>View merged PRs and concrete changes</strong></summary>
@@ -146,7 +146,6 @@ Only substantial, successfully merged work is highlighted here. Closed-without-m
 - [enfein/mieru#272](https://github.com/enfein/mieru/pull/272) — hardened anti-detection behavior through entropy padding and randomized heartbeats.
 - [diegosouzapw/OmniRoute#7353](https://github.com/diegosouzapw/OmniRoute/pull/7353) — normalized hashed standalone externals in Electron builds.
 - [calesthio/OpenMontage#391](https://github.com/calesthio/OpenMontage/pull/391) — corrected delayed audio fade scheduling.
-- [multica-ai/multica#722](https://github.com/multica-ai/multica/pull/722) — fixed workspace-filter synchronization and aligned CLI documentation.
 
 ### AI agents, channels & desktop apps
 
@@ -156,8 +155,6 @@ Only substantial, successfully merged work is highlighted here. Closed-without-m
 - [lbjlaq/Antigravity-Manager#1627](https://github.com/lbjlaq/Antigravity-Manager/pull/1627) — optimized token sorting by caching quota data in memory.
 - [slopus/happy#484](https://github.com/slopus/happy/pull/484) — implemented accurate Claude model cost calculation.
 - [pollen-robotics/reachy-mini-desktop-app#133](https://github.com/pollen-robotics/reachy-mini-desktop-app/pull/133) — fixed Windows encoding and compatibility behavior.
-- [DevAgentForge/Open-Claude-Cowork#33](https://github.com/DevAgentForge/Open-Claude-Cowork/pull/33) — fixed session-title retrieval in packaged macOS builds.
-- [HKUDS/DeepTutor#631](https://github.com/HKUDS/DeepTutor/pull/631) — aligned the WeCom integration with SDK 1.0.8.
 
 </details>
 
