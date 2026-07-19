@@ -32,13 +32,38 @@
 
 ## About me
 
-I work across **embedded hardware, robotics, networking, developer tools, web/desktop software, applied AI, and market research systems**. I like tracing a problem to its real boundary, implementing the smallest reliable fix, and proving it with focused tests.
+I build across the entire stack — from **silicon, firmware and physical protocols** to **systems software, product interfaces, edge infrastructure and AI agents**. My work is grounded in real hardware, reproducible failures, focused tests and deployable systems.
 
-- 🔩 **Hardware & protocols:** ESP32, RP2040, STM32, BLE, USB, CAN, secure elements, robotics
-- 🦀 **Systems & tooling:** Rust, Go, Python, TypeScript, cross-platform diagnostics
-- 🌐 **Product engineering:** self-hosted services, desktop/web apps, automation and deployment
-- 🤝 **Open source:** reproducible bug reports, targeted fixes, regression tests and maintainable integrations
-- 🧭 **Current interests:** reliable agent workflows, protocol analysis, private infrastructure and prediction-market tooling
+<table>
+<tr>
+<td width="24%" valign="top"><strong>🔩 Silicon & boards</strong></td>
+<td>Espressif <strong>ESP8266 / ESP32-C3 / C6 / S3 / P4</strong> · Raspberry Pi <strong>RP2040</strong> · <strong>STM32 / GD32</strong> · Nordic <strong>nRF52 / nRF54</strong> · HiSilicon <strong>WS63 / Hi3863</strong> · <strong>JL7016</strong> audio SoC · Wio Terminal · <strong>Tang Nano 9K / AGM FPGA</strong> · <strong>NXP SE05x</strong> secure elements</td>
+</tr>
+<tr>
+<td valign="top"><strong>⚙️ Firmware & embedded</strong></td>
+<td><strong>ESP-IDF · Zephyr / nRF Connect SDK · FreeRTOS · NuttX · Arduino · PlatformIO</strong> · micro-ROS / ROS 2 · LVGL · Renode · QEMU · KiCad · board bring-up, boot flows, drivers, diagnostics and hardware-in-the-loop testing</td>
+</tr>
+<tr>
+<td valign="top"><strong>📡 Protocols & buses</strong></td>
+<td><strong>BLE · USB / HID · CAN / TWAI / CAN-FD · UART · I²C · SPI</strong> · NFC / APDU · IEEE 802.15.4 · ESP-NOW · MQTT · WebSocket · MAVLink · packet capture, protocol analysis and cross-device interoperability</td>
+</tr>
+<tr>
+<td valign="top"><strong>🤖 Robotics & control</strong></td>
+<td><strong>MotorBridge</strong> · Damiao and RobStride motors · Feetech and FashionStar servos · FOC · grippers · real-time motion, calibration and safety · Reachy / LeRobot · ROS 2, RViz and browser-based operator tooling</td>
+</tr>
+<tr>
+<td valign="top"><strong>🦀 Languages & systems</strong></td>
+<td><strong>Rust · C · C++ · Go · Python · TypeScript / JavaScript</strong> · Swift · Kotlin · Java · Shell / PowerShell · Verilog · MATLAB · CMake / Make · FFI, stable C ABIs, PyO3, WebAssembly and cross-platform diagnostics</td>
+</tr>
+<tr>
+<td valign="top"><strong>🌐 Apps & infrastructure</strong></td>
+<td><strong>React · Next.js · Vite · Qt · Android · SwiftUI · Electron</strong> · Cloudflare Workers · Vercel · Docker · Linux / Windows / macOS · self-hosted services, edge caching, proxy and egress systems, streaming APIs, automation and deployment</td>
+</tr>
+<tr>
+<td valign="top"><strong>🧠 AI, data & open source</strong></td>
+<td><strong>LLM agents · MCP · applied AI integrations</strong> · prediction-market and quantitative tooling · monitoring and guarded execution · reproducible bug reports, targeted fixes, regression tests and maintainable upstream contributions</td>
+</tr>
+</table>
 
 ## Top repositories
 
