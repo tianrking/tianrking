@@ -17,7 +17,6 @@
 <p>
   <a href="#top-repositories">Top projects</a> ·
   <a href="#motorbridge--full-stack-motor-control-ecosystem">MotorBridge</a> ·
-  <a href="#current-deep-build-projects">Systems work</a> ·
   <a href="#selected-merged-contributions--2026">Open source</a>
 </p>
 
@@ -101,17 +100,6 @@ An interactive **AnyTLS-Go installation and management script** with dependency 
 </tr>
 </table>
 
-## More popular original projects
-
-| Project | What it solves | Technical core |
-|---|---|---|
-| [**xcode-proxy**](https://github.com/tianrking/xcode-proxy) ![stars](https://img.shields.io/github/stars/tianrking/xcode-proxy?style=flat-square&label=%E2%98%85) | Connect Xcode and editor AI features to OpenRouter, DeepSeek, Anthropic and OpenAI-compatible providers | Python · dynamic TOML routing · streaming protocol adaptation |
-| [**ClawRemove**](https://github.com/tianrking/ClawRemove) ![stars](https://img.shields.io/github/stars/tianrking/ClawRemove?style=flat-square&label=%E2%98%85) | Inspect, audit and safely clean environments where AI agents and local models run | Go · cross-platform single binary · runtime/storage/key inspection |
-| [**grok-api-proxy**](https://github.com/tianrking/grok-api-proxy) ![stars](https://img.shields.io/github/stars/tianrking/grok-api-proxy?style=flat-square&label=%E2%98%85) | Edge proxy for xAI Grok with client-owned credentials and streaming support | Cloudflare Workers · OpenAI-compatible HTTP/SSE |
-| [**DM_Gripper**](https://github.com/tianrking/DM_Gripper) ![stars](https://img.shields.io/github/stars/tianrking/DM_Gripper?style=flat-square&label=%E2%98%85) | Real-time DM-J4310 gripper calibration, manual control and automatic motion workflows | Python · React · WebSocket · CAN motor control |
-| [**RobStride_Control**](https://github.com/tianrking/RobStride_Control) ![stars](https://img.shields.io/github/stars/tianrking/RobStride_Control?style=flat-square&label=%E2%98%85) | Multi-language high-performance control implementations for RobStride motors | C++ · Rust · Python · Arduino/ESP32 · SocketCAN |
-| [**appstore-price**](https://github.com/tianrking/appstore-price) ![stars](https://img.shields.io/github/stars/tianrking/appstore-price?style=flat-square&label=%E2%98%85) | Global App Store and in-app-purchase price comparison with exchange-rate tracking | Next.js · React · TypeScript · Cloudflare/Vercel |
-
 ## MotorBridge · full-stack motor control ecosystem
 
 > **From natural-language intent and browser controls to deterministic CAN/UART motor commands.**
@@ -139,18 +127,6 @@ flowchart LR
     CAN --> Motors["Damiao · RobStride · other motors"]
     Servo --> Servos["FashionStar · Feetech servos"]
 ```
-
-## Current deep-build projects
-
-*Long-horizon systems work across protocols, infrastructure, hardware and market tooling.*
-
-| Project | Focus |
-|---|---|
-| [SonicPair](https://github.com/tianrking/SonicPair) | Browser-native near-ultrasonic pairing with local cryptography and a live two-device workflow |
-| [Véspero](https://github.com/tianrking/Vespero) | Self-hosted pluggable egress control behind one stable proxy endpoint |
-| [BLE Analyzer Pro RS](https://github.com/tianrking/BLE-Analyzer-Pro-rs) | Rust-native WCH BLE Analyzer capture, discovery and PCAP workflow |
-| [PolyAlpha](https://github.com/tianrking/PolyAlpha) | Polymarket research, cross-market strategy analysis and live tracking |
-| [ESP32 Micro-ROS](https://github.com/tianrking/ESP32_MicroROS) | Embedded ROS 2 experiments and reference firmware for ESP32 |
 
 ## Selected merged contributions · 2026
 
