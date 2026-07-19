@@ -1,19 +1,35 @@
 <div align="center">
 
-# Hi, I'm tianrking 👋
+<h1>tianrking</h1>
 
-**Independent builder · Open-source contributor · Systems tinkerer**
+<p><strong>Independent Systems Builder · Open-source Engineer</strong></p>
 
-把想法做成能运行、能验证、能落地的系统。  
-I build practical systems that can be tested, shipped, and maintained.
+<p><em>Ideas que funcionan. Sistemas que se verifican. Productos que llegan al mundo real.</em></p>
 
-[![GitHub followers](https://img.shields.io/github/followers/tianrking?style=flat-square&logo=github&label=Followers)](https://github.com/tianrking?tab=followers)
-[![proxychains-rs stars](https://img.shields.io/github/stars/tianrking/proxychains-rs?style=flat-square&logo=github&label=proxychains-rs)](https://github.com/tianrking/proxychains-rs)
-[![EdgeMirror stars](https://img.shields.io/github/stars/tianrking/EdgeMirror?style=flat-square&logo=github&label=EdgeMirror)](https://github.com/tianrking/EdgeMirror)
-[![Re_edgetunnel stars](https://img.shields.io/github/stars/tianrking/Re_edgetunnel?style=flat-square&logo=github&label=Re_edgetunnel)](https://github.com/tianrking/Re_edgetunnel)
-[![AnyTLS-Go-Script stars](https://img.shields.io/github/stars/tianrking/AnyTLS-Go-Script?style=flat-square&logo=github&label=AnyTLS-Go-Script)](https://github.com/tianrking/AnyTLS-Go-Script)
+<p>
+  <code>Embedded Systems</code> ·
+  <code>Robotics</code> ·
+  <code>Edge Infrastructure</code> ·
+  <code>Developer Tools</code> ·
+  <code>Applied AI</code>
+</p>
+
+<p>
+  <a href="#top-repositories">Top projects</a> ·
+  <a href="#motorbridge--full-stack-motor-control-ecosystem">MotorBridge</a> ·
+  <a href="#current-deep-build-projects">Systems work</a> ·
+  <a href="#selected-merged-contributions--2026">Open source</a>
+</p>
+
+[![GitHub followers](https://img.shields.io/github/followers/tianrking?style=for-the-badge&logo=github&label=Followers&color=181717)](https://github.com/tianrking?tab=followers)
+[![proxychains-rs](https://img.shields.io/github/stars/tianrking/proxychains-rs?style=for-the-badge&logo=rust&label=proxychains-rs&color=DEA584)](https://github.com/tianrking/proxychains-rs)
+[![EdgeMirror](https://img.shields.io/github/stars/tianrking/EdgeMirror?style=for-the-badge&logo=cloudflare&label=EdgeMirror&color=F38020)](https://github.com/tianrking/EdgeMirror)
+[![Re_edgetunnel](https://img.shields.io/github/stars/tianrking/Re_edgetunnel?style=for-the-badge&logo=cloudflare&label=EdgeTunnel&color=F38020)](https://github.com/tianrking/Re_edgetunnel)
+[![AnyTLS-Go-Script](https://img.shields.io/github/stars/tianrking/AnyTLS-Go-Script?style=for-the-badge&logo=gnu-bash&label=AnyTLS&color=4EAA25)](https://github.com/tianrking/AnyTLS-Go-Script)
 
 </div>
+
+---
 
 ## About me
 
@@ -26,6 +42,8 @@ I work across **embedded hardware, robotics, networking, developer tools, web/de
 - 🧭 **Current interests:** reliable agent workflows, protocol analysis, private infrastructure and prediction-market tooling
 
 ## Top repositories
+
+*Flagship projects with real users, real deployments, and independently verifiable results.*
 
 <table>
 <tr>
@@ -96,6 +114,8 @@ An interactive **AnyTLS-Go installation and management script** with dependency 
 
 ## MotorBridge · full-stack motor control ecosystem
 
+> **From natural-language intent and browser controls to deterministic CAN/UART motor commands.**
+
 [MotorBridge](https://github.com/motorbridge) connects high-level applications and AI agents all the way down to real motors. It is not a single demo: the organization separates protocol-independent control, hardware transports, browser tooling, embedded firmware, smart servos and agent integration into reusable layers.
 
 | Layer | Repository | Role |
@@ -121,6 +141,8 @@ flowchart LR
 ```
 
 ## Current deep-build projects
+
+*Long-horizon systems work across protocols, infrastructure, hardware and market tooling.*
 
 | Project | Focus |
 |---|---|
@@ -172,6 +194,6 @@ Across my public, private, and organization work, I focus on a few connected dir
 
 <div align="center">
 
-**Build it. Verify it. Keep the boundary honest.**
+**Construir. Verificar. Llevarlo al mundo real.**
 
 </div>
