@@ -25,14 +25,68 @@ I work across **embedded hardware, robotics, networking, developer tools, web/de
 - 🤝 **Open source:** reproducible bug reports, targeted fixes, regression tests and maintainable integrations
 - 🧭 **Current interests:** reliable agent workflows, protocol analysis, private infrastructure and prediction-market tooling
 
-## Popular original projects
+## Top repositories
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [proxychains-rs](https://github.com/tianrking/proxychains-rs)
+
+![Public](https://img.shields.io/badge/visibility-public-2da44e?style=flat-square)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust)
+[![Stars](https://img.shields.io/github/stars/tianrking/proxychains-rs?style=flat-square&logo=github&label=stars)](https://github.com/tianrking/proxychains-rs/stargazers)
+[![Forks](https://img.shields.io/github/forks/tianrking/proxychains-rs?style=flat-square&logo=github&label=forks)](https://github.com/tianrking/proxychains-rs/forks)
+
+A modern Rust implementation of process-level proxy chaining across **Linux, macOS and Windows**, using preload injection and native Winsock hooks. Supports multiple proxy protocols, chain modes, groups, process trees, DNS handling and health probes.
+
+</td>
+<td width="50%" valign="top">
+
+### [EdgeMirror](https://github.com/tianrking/EdgeMirror)
+
+![Public](https://img.shields.io/badge/visibility-public-2da44e?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=111111)
+[![Stars](https://img.shields.io/github/stars/tianrking/EdgeMirror?style=flat-square&logo=github&label=stars)](https://github.com/tianrking/EdgeMirror/stargazers)
+[![Forks](https://img.shields.io/github/forks/tianrking/EdgeMirror?style=flat-square&logo=github&label=forks)](https://github.com/tianrking/EdgeMirror/forks)
+
+A CDN-style edge mirror gateway for developer sources: **PyPI, PyTorch, Hugging Face, GitHub, Docker, Linux mirrors, npm, Go, Maven and crates.io**, with shared caching, upstream fallback and one-click Cloudflare/Vercel deployment.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Re_edgetunnel](https://github.com/tianrking/Re_edgetunnel)
+
+![Public](https://img.shields.io/badge/visibility-public-2da44e?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-f1e05a?style=flat-square&logo=javascript&logoColor=111111)
+[![Stars](https://img.shields.io/github/stars/tianrking/Re_edgetunnel?style=flat-square&logo=github&label=stars)](https://github.com/tianrking/Re_edgetunnel/stargazers)
+[![Forks](https://img.shields.io/github/forks/tianrking/Re_edgetunnel?style=flat-square&logo=github&label=forks)](https://github.com/tianrking/Re_edgetunnel/forks)
+![GPL-2.0](https://img.shields.io/badge/license-GPL--2.0-blue?style=flat-square)
+
+A modular Cloudflare Workers tunnel rebuilt around **ESM, Wrangler and KV-backed configuration**. Includes VLESS/Trojan support and subscription generation for Clash, sing-box and Surge.
+
+</td>
+<td width="50%" valign="top">
+
+### [AnyTLS-Go-Script](https://github.com/tianrking/AnyTLS-Go-Script)
+
+![Public](https://img.shields.io/badge/visibility-public-2da44e?style=flat-square)
+![Shell](https://img.shields.io/badge/Shell-89e051?style=flat-square&logo=gnu-bash&logoColor=111111)
+[![Stars](https://img.shields.io/github/stars/tianrking/AnyTLS-Go-Script?style=flat-square&logo=github&label=stars)](https://github.com/tianrking/AnyTLS-Go-Script/stargazers)
+[![Forks](https://img.shields.io/github/forks/tianrking/AnyTLS-Go-Script?style=flat-square&logo=github&label=forks)](https://github.com/tianrking/AnyTLS-Go-Script/forks)
+
+An interactive **AnyTLS-Go installation and management script** with dependency setup, systemd lifecycle management, architecture detection, guided configuration, log inspection, mobile QR profiles and clean removal.
+
+</td>
+</tr>
+</table>
+
+## More popular original projects
 
 | Project | What it solves | Technical core |
 |---|---|---|
-| [**proxychains-rs**](https://github.com/tianrking/proxychains-rs) ![stars](https://img.shields.io/github/stars/tianrking/proxychains-rs?style=flat-square&label=%E2%98%85) | Modern, cross-platform process-level proxy chaining for Linux, macOS and Windows | Rust · LD_PRELOAD · DYLD injection · MinHook/Winsock |
-| [**EdgeMirror**](https://github.com/tianrking/EdgeMirror) ![stars](https://img.shields.io/github/stars/tianrking/EdgeMirror?style=flat-square&label=%E2%98%85) | One edge gateway for accelerating PyPI, Hugging Face, GitHub, Docker, npm, Go, Maven, crates.io and Linux mirrors | Cloudflare Workers · Vercel · caching · resilient upstream routing |
-| [**Re_edgetunnel**](https://github.com/tianrking/Re_edgetunnel) ![stars](https://img.shields.io/github/stars/tianrking/Re_edgetunnel?style=flat-square&label=%E2%98%85) | Engineering-oriented Cloudflare tunnel implementation with modular configuration and subscription generation | ESM · Cloudflare KV · WebSocket · VLESS/Trojan |
-| [**AnyTLS-Go-Script**](https://github.com/tianrking/AnyTLS-Go-Script) ![stars](https://img.shields.io/github/stars/tianrking/AnyTLS-Go-Script?style=flat-square&label=%E2%98%85) | Install, configure, update, inspect and remove AnyTLS-Go from one interactive script | Shell · systemd · multi-architecture Linux · QR configuration |
 | [**xcode-proxy**](https://github.com/tianrking/xcode-proxy) ![stars](https://img.shields.io/github/stars/tianrking/xcode-proxy?style=flat-square&label=%E2%98%85) | Connect Xcode and editor AI features to OpenRouter, DeepSeek, Anthropic and OpenAI-compatible providers | Python · dynamic TOML routing · streaming protocol adaptation |
 | [**ClawRemove**](https://github.com/tianrking/ClawRemove) ![stars](https://img.shields.io/github/stars/tianrking/ClawRemove?style=flat-square&label=%E2%98%85) | Inspect, audit and safely clean environments where AI agents and local models run | Go · cross-platform single binary · runtime/storage/key inspection |
 | [**grok-api-proxy**](https://github.com/tianrking/grok-api-proxy) ![stars](https://img.shields.io/github/stars/tianrking/grok-api-proxy?style=flat-square&label=%E2%98%85) | Edge proxy for xAI Grok with client-owned credentials and streaming support | Cloudflare Workers · OpenAI-compatible HTTP/SSE |
