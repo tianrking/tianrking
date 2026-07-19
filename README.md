@@ -16,7 +16,7 @@
 
 <p>
   <a href="#top-repositories">Top projects</a> ·
-  <a href="#motorbridge--full-stack-motor-control-ecosystem">MotorBridge</a> ·
+  <a href="#original-engineering-portfolio">Original systems</a> ·
   <a href="#open-source-impact--merged-prs-2026">Open source</a>
 </p>
 
@@ -125,33 +125,81 @@ An interactive **AnyTLS-Go installation and management script** with dependency 
 </tr>
 </table>
 
-## MotorBridge · full-stack motor control ecosystem
+## Original engineering portfolio
 
-> **From natural-language intent and browser controls to deterministic CAN/UART motor commands.**
+Only substantial original systems are included here: projects with a clear architecture, real hardware or protocol validation, cross-platform implementation, or an end-to-end research and execution loop. Open a category to inspect the engineering core.
 
-[MotorBridge](https://github.com/motorbridge) connects high-level applications and AI agents all the way down to real motors. It is not a single demo: the organization separates protocol-independent control, hardware transports, browser tooling, embedded firmware, smart servos and agent integration into reusable layers.
+<details>
+<summary><strong>🤖 Motor control & robotics</strong> · 8 projects · CAN/CAN-FD/UART, deterministic control, safety and operator tooling</summary>
 
-| Layer | Repository | Role |
-|---|---|---|
-| Control core | [motorbridge](https://github.com/motorbridge/motorbridge) | Vendor-agnostic Rust CAN core, stable C ABI, Python/C++ bindings, CLI, WebSocket gateway and reliability tools |
-| Operator UI | [motorbridge-studio](https://github.com/motorbridge/motorbridge-studio) | React/Vite control studio for scanning, configuration, enable/disable, MIT, position/velocity and force-position modes |
-| Embedded bridge | [motorbridge-esp32](https://github.com/motorbridge/motorbridge-esp32) | Layered ESP-IDF 5.5 firmware with TWAI transport, host protocol, safety manager, NVS parameters and vendor plugins |
-| Smart servos | [motorbridge-smart-servo](https://github.com/motorbridge/motorbridge-smart-servo) | Rust-first UART servo stack with native CLI, C ABI, PyO3 wheels and a WASM reliability core |
-| AI control | [motorbridge-agent](https://github.com/motorbridge/motorbridge-agent) | MCP server that turns natural-language instructions into guarded motor-control operations, with hardware-free demo mode |
+<br>
 
-```mermaid
-flowchart LR
-    AI["AI clients / MCP"] --> Agent["motorbridge-agent"]
-    UI["MotorBridge Studio"] --> WS["WebSocket gateway"]
-    Apps["CLI · Python · C++"] --> Core["Rust control core"]
-    Agent --> Core
-    WS --> Core
-    Core --> CAN["CAN vendor drivers"]
-    Core --> Servo["UART smart-servo stack"]
-    ESP["ESP32 bridge firmware"] --> CAN
-    CAN --> Motors["Damiao · RobStride · other motors"]
-    Servo --> Servos["FashionStar · Feetech servos"]
-```
+| Project | Engineering core |
+|---|---|
+| [**MotorBridge Core**](https://github.com/motorbridge/motorbridge) | Vendor-agnostic Rust CAN control core with a stable C ABI, Python/C++ bindings, CLI, WebSocket gateway and reliability tooling. |
+| [**MotorBridge Studio**](https://github.com/motorbridge/motorbridge-studio) | React/Vite operator console for discovery, configuration, enable/disable, MIT, position, velocity and force-position workflows. |
+| [**MotorBridge ESP32**](https://github.com/motorbridge/motorbridge-esp32) | Layered ESP-IDF 5.5 firmware with TWAI transport, host protocol, safety manager, NVS parameters and vendor plugins. |
+| [**MotorBridge Smart Servo**](https://github.com/motorbridge/motorbridge-smart-servo) | Rust-first UART servo stack with native CLI, C ABI, PyO3 wheels and a WASM reliability core for Feetech/FashionStar devices. |
+| [**MotorBridge Agent**](https://github.com/motorbridge/motorbridge-agent) | MCP server translating natural-language intent into guarded motor operations, with capability boundaries and hardware-free demo mode. |
+| [**RobStride_Control**](https://github.com/tianrking/RobStride_Control) | Independent Python, C++17, Rust and ESP32/Arduino implementations for RobStride motors over SocketCAN, covering real-time MIT and position control. |
+| [**DM_Gripper**](https://github.com/tianrking/DM_Gripper) | DM-J4310 gripper system with CAN control, startup calibration, live torque/position feedback, Python backend and React/WebSocket operator UI. |
+| [**hexfellow_canfd**](https://github.com/tianrking/hexfellow_canfd) | Minimal SocketCAN-FD/CANopen toolchain for node discovery, SDO access, position-velocity mode and MIT control. |
+
+</details>
+
+<details>
+<summary><strong>🔐 Embedded silicon, secure elements & firmware</strong> · 5 projects · Zephyr/NCS, ESP-IDF, micro-ROS and hardware-backed cryptography</summary>
+
+<br>
+
+| Project | Engineering core |
+|---|---|
+| [**nrf54lm20-se05x-ncs**](https://github.com/tianrking/nrf54lm20-se05x-ncs) | Nordic NCS/Zephyr port of NXP SE05x: T=1 over I²C, Platform SCP03, SSS/PSA integration, persistent secp256k1 keys and hardware-signed Ethereum testnet transactions. |
+| [**esp32-se05x-idf**](https://github.com/tianrking/esp32-se05x-idf) | ESP32-H2 + ESP-IDF 6.0 SE05x stack with portable bus abstraction, APDU/SSS/SCP03 layers and a verified non-destructive hardware test matrix. |
+| [**zephyr-rust-renode-starter**](https://github.com/tianrking/zephyr-rust-renode-starter) | Mixed C/Rust nRF52840 firmware built through Zephyr and loaded as a real ELF into Renode for repeatable UART/GPIO simulation. |
+| [**ESP32_MicroROS**](https://github.com/tianrking/ESP32_MicroROS) | ESP-IDF 5.2 + ROS 2 Humble firmware with UDP, UART and custom micro-ROS transports across ESP32 targets. |
+| [**XIAO_RP2040_micro_ros**](https://github.com/tianrking/XIAO_RP2040_micro_ros) | RP2040/Pico SDK micro-ROS integration with precompiled client library, serial transport and Docker-hosted ROS 2 agent workflow. |
+
+</details>
+
+<details>
+<summary><strong>📡 Protocol analysis & hardware diagnostics</strong> · Rust-native capture, reverse engineering and reusable ABIs</summary>
+
+<br>
+
+| Project | Engineering core |
+|---|---|
+| [**BLE-Analyzer-Pro-rs**](https://github.com/tianrking/BLE-Analyzer-Pro-rs) | Reverse-engineered WCH BLE Analyzer Pro stack for its CH582F multi-MCU USB architecture: Rust capture core, packet decoder, PCAP writer, CLI, stable C ABI and Python ctypes bindings across Linux/WSL2, macOS and Windows. |
+
+</details>
+
+<details>
+<summary><strong>🌐 Networking, routing & private infrastructure</strong> · 5 projects · process injection, edge delivery, tunneling and egress control</summary>
+
+<br>
+
+| Project | Engineering core |
+|---|---|
+| [**proxychains-rs**](https://github.com/tianrking/proxychains-rs) | Rust process-level proxy chaining across Linux, macOS and Windows using preload injection and native Winsock hooks, with chain modes, DNS handling and health probes. |
+| [**Véspero**](https://github.com/tianrking/Vespero) | Rust/Axum egress control plane that keeps one HTTP/SOCKS5 endpoint while safely switching new connections among Direct, VPNGate/OpenVPN and country-constrained Tor providers. |
+| [**EdgeMirror**](https://github.com/tianrking/EdgeMirror) | Edge mirror gateway for PyPI, PyTorch, Hugging Face, GitHub, Docker and language ecosystems, with shared caching, upstream fallback and Cloudflare/Vercel deployment. |
+| [**Re_edgetunnel**](https://github.com/tianrking/Re_edgetunnel) | Modular Cloudflare Workers tunnel using ESM, Wrangler and KV-backed configuration, with VLESS/Trojan and multi-client subscription generation. |
+| [**AnyTLS-Go-Script**](https://github.com/tianrking/AnyTLS-Go-Script) | Architecture-aware AnyTLS-Go lifecycle manager with dependency provisioning, systemd control, guided configuration, diagnostics, QR profiles and clean removal. |
+
+</details>
+
+<details>
+<summary><strong>📈 Prediction markets & research infrastructure</strong> · 3 projects · collection, wallet intelligence, execution gateways and contract semantics</summary>
+
+<br>
+
+| Project | Engineering core |
+|---|---|
+| [**PolyAlpha**](https://github.com/tianrking/PolyAlpha) | Rust + Python dual-engine research platform for Polymarket data collection, on-chain/CLOB ingestion, wallet scoring, strategy reverse engineering, factor validation and live signals. |
+| [**PolyGate**](https://github.com/tianrking/PolyGate) | Shared Node.js/Cloudflare Workers command gateway with wallet/signature logic, public and authenticated CLOB commands, on-chain approval/CTF operations, SSE events and policy controls. |
+| [**PolyGap**](https://github.com/tianrking/PolyGap) | Prediction-contract audit system combining fast rule-based gap detection with streaming LLM analysis to expose settlement ambiguity and adversarial edge cases. |
+
+</details>
 
 ## Open-source impact · merged PRs (2026)
 
@@ -179,15 +227,9 @@ Contributions merged into third-party projects, selected for either **community 
 | [**enfein/mieru**](https://github.com/enfein/mieru) | [![Stars](https://img.shields.io/github/stars/enfein/mieru?style=flat-square&logo=github&label=stars)](https://github.com/enfein/mieru/stargazers) | [![PR #272](https://img.shields.io/badge/PR%20%23272-merged-8250DF?style=flat-square&logo=github)](https://github.com/enfein/mieru/pull/272) Hardened traffic anti-detection with entropy padding and randomized heartbeats. |
 | [**pollen-robotics/reachy-mini-desktop-app**](https://github.com/pollen-robotics/reachy-mini-desktop-app) | [![Stars](https://img.shields.io/github/stars/pollen-robotics/reachy-mini-desktop-app?style=flat-square&logo=github&label=stars)](https://github.com/pollen-robotics/reachy-mini-desktop-app/stargazers) | [![PR #133](https://img.shields.io/badge/PR%20%23133-merged-8250DF?style=flat-square&logo=github)](https://github.com/pollen-robotics/reachy-mini-desktop-app/pull/133) Fixed Windows Unicode startup failures and version compatibility in the packaged Reachy Mini desktop app. |
 
-## Project directions
+## Private engineering directions
 
-Across my public, private, and organization work, I focus on a few connected directions:
-
-- **Embedded systems & robotics** — MCU firmware, BLE/USB/CAN protocols, sensing, motor control, robot tooling and hardware bring-up.
-- **Networking & private infrastructure** — proxy systems, egress control, edge acceleration, self-hosted services and deployment automation.
-- **Developer tools & applied AI** — cross-platform diagnostics, agent workflows, desktop/web products and practical AI integrations.
-- **Markets & data systems** — prediction-market research, market-data adapters, guarded execution, monitoring and quantitative experiments.
-- **Product engineering** — turning experiments into testable tools with clear boundaries, focused verification and maintainable delivery.
+Private work extends the public portfolio into **embedded/audio firmware and hardware bring-up**, **prediction-market monitoring and guarded execution**, **weather and quantitative research**, and **internal product, media and deployment systems**. Repository identities and implementation details remain intentionally private.
 
 ---
 
