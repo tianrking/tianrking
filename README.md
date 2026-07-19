@@ -20,11 +20,11 @@
   <a href="#open-source-impact--merged-prs-2026">Open source</a>
 </p>
 
-[![GitHub followers](https://img.shields.io/github/followers/tianrking?style=for-the-badge&logo=github&label=Followers&color=181717)](https://github.com/tianrking?tab=followers)
-[![proxychains-rs](https://img.shields.io/github/stars/tianrking/proxychains-rs?style=for-the-badge&logo=rust&label=proxychains-rs&color=DEA584)](https://github.com/tianrking/proxychains-rs)
-[![EdgeMirror](https://img.shields.io/github/stars/tianrking/EdgeMirror?style=for-the-badge&logo=cloudflare&label=EdgeMirror&color=F38020)](https://github.com/tianrking/EdgeMirror)
-[![Re_edgetunnel](https://img.shields.io/github/stars/tianrking/Re_edgetunnel?style=for-the-badge&logo=cloudflare&label=EdgeTunnel&color=F38020)](https://github.com/tianrking/Re_edgetunnel)
-[![AnyTLS-Go-Script](https://img.shields.io/github/stars/tianrking/AnyTLS-Go-Script?style=for-the-badge&logo=gnu-bash&label=AnyTLS&color=4EAA25)](https://github.com/tianrking/AnyTLS-Go-Script)
+[![GitHub followers](https://img.shields.io/github/followers/tianrking?style=for-the-badge&logo=github&label=Followers&color=181717&cacheSeconds=300)](https://github.com/tianrking?tab=followers)
+[![proxychains-rs](https://img.shields.io/github/stars/tianrking/proxychains-rs?style=for-the-badge&logo=rust&label=proxychains-rs&color=DEA584&cacheSeconds=300)](https://github.com/tianrking/proxychains-rs)
+[![EdgeMirror](https://img.shields.io/github/stars/tianrking/EdgeMirror?style=for-the-badge&logo=cloudflare&label=EdgeMirror&color=F38020&cacheSeconds=300)](https://github.com/tianrking/EdgeMirror)
+[![Re_edgetunnel](https://img.shields.io/github/stars/tianrking/Re_edgetunnel?style=for-the-badge&logo=cloudflare&label=EdgeTunnel&color=F38020&cacheSeconds=300)](https://github.com/tianrking/Re_edgetunnel)
+[![AnyTLS-Go-Script](https://img.shields.io/github/stars/tianrking/AnyTLS-Go-Script?style=for-the-badge&logo=gnu-bash&label=AnyTLS&color=4EAA25&cacheSeconds=300)](https://github.com/tianrking/AnyTLS-Go-Script)
 
 </div>
 
