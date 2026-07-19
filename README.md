@@ -17,7 +17,7 @@
 <p>
   <a href="#top-repositories">Top projects</a> ·
   <a href="#motorbridge--full-stack-motor-control-ecosystem">MotorBridge</a> ·
-  <a href="#selected-merged-contributions--2026">Open source</a>
+  <a href="#open-source-impact--merged-prs-2026">Open source</a>
 </p>
 
 [![GitHub followers](https://img.shields.io/github/followers/tianrking?style=for-the-badge&logo=github&label=Followers&color=181717)](https://github.com/tianrking?tab=followers)
@@ -128,33 +128,25 @@ flowchart LR
     Servo --> Servos["FashionStar · Feetech servos"]
 ```
 
-## Selected merged contributions · 2026
+## Open-source impact · merged PRs (2026)
 
-Only substantial, successfully merged engineering work is highlighted here.
+Contributions to widely used open-source projects, ordered by current community reach. Star badges update live; every linked PR below was merged upstream.
 
-<details>
-<summary><strong>View merged PRs and concrete changes</strong></summary>
-
-### Developer tools & infrastructure
-
-- [wezterm/wezterm#7942](https://github.com/wezterm/wezterm/pull/7942) — guarded shell integration against an unset `ZSH_NAME`.
-- [pnpm/pnpm#13075](https://github.com/pnpm/pnpm/pull/13075) — fixed installs when `pnpm-lock.yaml` is a symlink.
-- [filebrowser/filebrowser#6034](https://github.com/filebrowser/filebrowser/pull/6034) — ensured upload hooks also run for directories.
-- [actualbudget/actual#8490](https://github.com/actualbudget/actual/pull/8490) — refreshed running balances after transaction edits.
-- [enfein/mieru#272](https://github.com/enfein/mieru/pull/272) — hardened anti-detection behavior through entropy padding and randomized heartbeats.
-- [diegosouzapw/OmniRoute#7353](https://github.com/diegosouzapw/OmniRoute/pull/7353) — normalized hashed standalone externals in Electron builds.
-- [calesthio/OpenMontage#391](https://github.com/calesthio/OpenMontage/pull/391) — corrected delayed audio fade scheduling.
-
-### AI agents, channels & desktop apps
-
-- [RightNow-AI/openfang#665](https://github.com/RightNow-AI/openfang/pull/665) — added an MQTT publish/subscribe channel adapter.
-- [HKUDS/nanobot#219](https://github.com/HKUDS/nanobot/pull/219) — added DingTalk channel support.
-- [sipeed/picoclaw#12](https://github.com/sipeed/picoclaw/pull/12) — implemented DingTalk Stream Mode integration.
-- [lbjlaq/Antigravity-Manager#1627](https://github.com/lbjlaq/Antigravity-Manager/pull/1627) — optimized token sorting by caching quota data in memory.
-- [slopus/happy#484](https://github.com/slopus/happy/pull/484) — implemented accurate Claude model cost calculation.
-- [pollen-robotics/reachy-mini-desktop-app#133](https://github.com/pollen-robotics/reachy-mini-desktop-app/pull/133) — fixed Windows encoding and compatibility behavior.
-
-</details>
+| Upstream project | Community | My merged contribution |
+|---|---|---|
+| [**HKUDS/nanobot**](https://github.com/HKUDS/nanobot) | [![Stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=flat-square&logo=github&label=stars)](https://github.com/HKUDS/nanobot/stargazers) | [![PR #219](https://img.shields.io/badge/PR%20%23219-merged-8250DF?style=flat-square&logo=github)](https://github.com/HKUDS/nanobot/pull/219) Added DingTalk channel support. |
+| [**calesthio/OpenMontage**](https://github.com/calesthio/OpenMontage) | [![Stars](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat-square&logo=github&label=stars)](https://github.com/calesthio/OpenMontage/stargazers) | [![PR #391](https://img.shields.io/badge/PR%20%23391-merged-8250DF?style=flat-square&logo=github)](https://github.com/calesthio/OpenMontage/pull/391) Corrected delayed audio-fade scheduling. |
+| [**pnpm/pnpm**](https://github.com/pnpm/pnpm) | [![Stars](https://img.shields.io/github/stars/pnpm/pnpm?style=flat-square&logo=github&label=stars)](https://github.com/pnpm/pnpm/stargazers) | [![PR #13075](https://img.shields.io/badge/PR%20%2313075-merged-8250DF?style=flat-square&logo=github)](https://github.com/pnpm/pnpm/pull/13075) Fixed installations when `pnpm-lock.yaml` is a symlink. |
+| [**filebrowser/filebrowser**](https://github.com/filebrowser/filebrowser) | [![Stars](https://img.shields.io/github/stars/filebrowser/filebrowser?style=flat-square&logo=github&label=stars)](https://github.com/filebrowser/filebrowser/stargazers) | [![PR #6034](https://img.shields.io/badge/PR%20%236034-merged-8250DF?style=flat-square&logo=github)](https://github.com/filebrowser/filebrowser/pull/6034) Ensured upload hooks also run for directories. |
+| [**lbjlaq/Antigravity-Manager**](https://github.com/lbjlaq/Antigravity-Manager) | [![Stars](https://img.shields.io/github/stars/lbjlaq/Antigravity-Manager?style=flat-square&logo=github&label=stars)](https://github.com/lbjlaq/Antigravity-Manager/stargazers) | [![PR #1627](https://img.shields.io/badge/PR%20%231627-merged-8250DF?style=flat-square&logo=github)](https://github.com/lbjlaq/Antigravity-Manager/pull/1627) Reduced token-sorting overhead by caching quota data in memory. |
+| [**sipeed/picoclaw**](https://github.com/sipeed/picoclaw) | [![Stars](https://img.shields.io/github/stars/sipeed/picoclaw?style=flat-square&logo=github&label=stars)](https://github.com/sipeed/picoclaw/stargazers) | [![PR #12](https://img.shields.io/badge/PR%20%2312-merged-8250DF?style=flat-square&logo=github)](https://github.com/sipeed/picoclaw/pull/12) Implemented DingTalk Stream Mode integration. |
+| [**wezterm/wezterm**](https://github.com/wezterm/wezterm) | [![Stars](https://img.shields.io/github/stars/wezterm/wezterm?style=flat-square&logo=github&label=stars)](https://github.com/wezterm/wezterm/stargazers) | [![PR #7942](https://img.shields.io/badge/PR%20%237942-merged-8250DF?style=flat-square&logo=github)](https://github.com/wezterm/wezterm/pull/7942) Guarded shell integration against an unset `ZSH_NAME`. |
+| [**actualbudget/actual**](https://github.com/actualbudget/actual) | [![Stars](https://img.shields.io/github/stars/actualbudget/actual?style=flat-square&logo=github&label=stars)](https://github.com/actualbudget/actual/stargazers) | [![PR #8490](https://img.shields.io/badge/PR%20%238490-merged-8250DF?style=flat-square&logo=github)](https://github.com/actualbudget/actual/pull/8490) Refreshed running balances after transaction edits. |
+| [**slopus/happy**](https://github.com/slopus/happy) | [![Stars](https://img.shields.io/github/stars/slopus/happy?style=flat-square&logo=github&label=stars)](https://github.com/slopus/happy/stargazers) | [![PR #484](https://img.shields.io/badge/PR%20%23484-merged-8250DF?style=flat-square&logo=github)](https://github.com/slopus/happy/pull/484) Implemented accurate Claude model cost calculation. |
+| [**diegosouzapw/OmniRoute**](https://github.com/diegosouzapw/OmniRoute) | [![Stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=flat-square&logo=github&label=stars)](https://github.com/diegosouzapw/OmniRoute/stargazers) | [![PR #7353](https://img.shields.io/badge/PR%20%237353-merged-8250DF?style=flat-square&logo=github)](https://github.com/diegosouzapw/OmniRoute/pull/7353) Normalized hashed standalone externals in Electron builds. |
+| [**RightNow-AI/openfang**](https://github.com/RightNow-AI/openfang) | [![Stars](https://img.shields.io/github/stars/RightNow-AI/openfang?style=flat-square&logo=github&label=stars)](https://github.com/RightNow-AI/openfang/stargazers) | [![PR #665](https://img.shields.io/badge/PR%20%23665-merged-8250DF?style=flat-square&logo=github)](https://github.com/RightNow-AI/openfang/pull/665) Added an MQTT publish/subscribe channel adapter. |
+| [**enfein/mieru**](https://github.com/enfein/mieru) | [![Stars](https://img.shields.io/github/stars/enfein/mieru?style=flat-square&logo=github&label=stars)](https://github.com/enfein/mieru/stargazers) | [![PR #272](https://img.shields.io/badge/PR%20%23272-merged-8250DF?style=flat-square&logo=github)](https://github.com/enfein/mieru/pull/272) Hardened anti-detection with entropy padding and randomized heartbeats. |
+| [**pollen-robotics/reachy-mini-desktop-app**](https://github.com/pollen-robotics/reachy-mini-desktop-app) | [![Stars](https://img.shields.io/github/stars/pollen-robotics/reachy-mini-desktop-app?style=flat-square&logo=github&label=stars)](https://github.com/pollen-robotics/reachy-mini-desktop-app/stargazers) | [![PR #133](https://img.shields.io/badge/PR%20%23133-merged-8250DF?style=flat-square&logo=github)](https://github.com/pollen-robotics/reachy-mini-desktop-app/pull/133) Fixed Windows encoding and compatibility behavior. |
 
 ## Project directions
 
