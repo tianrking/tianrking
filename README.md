@@ -234,13 +234,13 @@ Only substantial original systems are included here: projects with a clear archi
 
 ## Open-source impact · merged PRs
 
-**30 selected 2026 merged PRs across 30 high-star upstream projects**: bug fixes, integrations, regression tests and engineering documentation across developer tooling, web platforms, applied AI, systems software and embedded engineering.
+**Selected 2026 merged PRs from notable upstream projects**: bug fixes, integrations, regression tests and engineering documentation across developer tooling, web platforms, applied AI, systems software and embedded engineering.
 
-Every linked PR was re-verified as merged on **2026-09-09**. A row requires a 2026 merge, an upstream project with **at least 10,000 GitHub stars** at review time, and a non-Seeed owner. Each project appears once, using its latest qualifying merged PR. Projects are ordered by GitHub Star count, highest first; star badges update live.
+Every linked PR was re-verified as merged on **2026-09-09**; star badges update live.
 
 [Browse all my merged PRs](https://github.com/pulls?q=is%3Apr+author%3Atianrking+is%3Amerged) · [2026 upstream merges](https://github.com/pulls?q=is%3Apr+author%3Atianrking+is%3Amerged+merged%3A%3E%3D2026-01-01+-user%3Atianrking)
 
-| Upstream project | Stars | Latest qualifying merged PR |
+| Upstream project | Stars | Selected merged PR |
 |---|---|---|
 | [**farion1231/cc-switch**](https://github.com/farion1231/cc-switch) | [![Stars](https://img.shields.io/github/stars/farion1231/cc-switch?style=flat-square&logo=github&label=stars)](https://github.com/farion1231/cc-switch/stargazers) | [![PR #452](https://img.shields.io/badge/PR%20%23452-merged-8250DF?style=flat-square&logo=github)](https://github.com/farion1231/cc-switch/pull/452) · 2026&#8209;01&#8209;12<br>Added provider-specific terminal launches with isolated API configurations across macOS, Linux and Windows. |
 | [**neovim/neovim**](https://github.com/neovim/neovim) | [![Stars](https://img.shields.io/github/stars/neovim/neovim?style=flat-square&logo=github&label=stars)](https://github.com/neovim/neovim/stargazers) | [![PR #40768](https://img.shields.io/badge/PR%20%2340768-merged-8250DF?style=flat-square&logo=github)](https://github.com/neovim/neovim/pull/40768) · 2026&#8209;07&#8209;28<br>Fixed cursor-relative floating windows using stale screen coordinates after a restored cursor move. |
